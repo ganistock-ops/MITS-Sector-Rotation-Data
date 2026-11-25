@@ -3,7 +3,7 @@
     "system": "MITS 360\u00b0 Quantitative Research Intelligence",
     "report_type": "Daily Sector Flow & Rotation Strategy Matrix",
     "data_status": "AUTHENTIC_QUANTITATIVE_CALCULATION",
-    "timestamp": "2026-11-20T15:30:00+05:30",
+    "timestamp": "2026-11-25T15:30:00+05:30",
     "benchmark": "NIFTY 500 Index",
     "filter_configuration": {
       "min_persistence_sessions": 2,
@@ -11,8 +11,44 @@
       "positive_heading_range": "0.0\u00b0 to 90.0\u00b0"
     }
   },
-  "executive_summary": "Market rotation dynamics on 2026-11-20 reflect active capital reallocation across benchmark sectors. Primary institutional leadership is anchored in NIFTY PVT BANK, NIFTY BANK, NIFTY PSU BANK, supported by robust 20-DMA breadth participation. Concurrently, early-stage momentum acceleration is evident in emerging leaders, presenting attractive risk/reward rotational entry opportunities as relative strength curves inflect higher against NIFTY 500.",
+  "executive_summary": "Market rotation dynamics on 2026-11-25 reflect active capital reallocation across benchmark sectors. Primary institutional leadership is anchored in NIFTY HEALTHCARE, NIFTY FMCG, NIFTY PHARMA, supported by robust 20-DMA breadth participation. Concurrently, early-stage momentum acceleration is evident in NIFTY IT, presenting attractive risk/reward rotational entry opportunities as relative strength curves inflect higher against NIFTY 500.",
   "categories": [
+    {
+      "id": "EMERGING_LEADERSHIP",
+      "title": "Emerging Leadership",
+      "badge": "EARLY STAGE ACCELERATION",
+      "badge_color": "cyan",
+      "alerts": [
+        {
+          "sector": "NIFTY IT",
+          "heading_angle": "66\u00b0 (Positive Vector)",
+          "rs_ratio": 99.97,
+          "rs_momentum": 101.6,
+          "signal": "Improving Quadrant Acceleration (+3.0 w/w)",
+          "summary": "Nifty IT Index displays strong relative momentum expansion (+3.0 w/w), with 56.0% of constituents trading above their 20-day SMA. Advance/decline ratio of 14:11 signals broad institutional participation.",
+          "conviction": "CONFIRMED (2d Streak + Positive Vector)",
+          "signal_quality": {
+            "symbol": "NIFTY IT",
+            "raw_quadrant": "IMPROVING",
+            "consecutive_sessions": 2,
+            "persistence_threshold": 2,
+            "persistence_met": true,
+            "heading": {
+              "angle": 66.0,
+              "is_positive": true,
+              "direction_label": "North-East (Accelerating Alpha & Momentum)",
+              "confirmation_enabled": false,
+              "confirmed": true
+            },
+            "is_confirmed": true,
+            "confirmation_type": "PERSISTENCE_CONFIRMED",
+            "conviction_rating": "HIGH CONVICTION - CONFIRMED",
+            "quality_badge": "CONFIRMED (2d Streak + Positive Vector)"
+          },
+          "institutional_action": "Accumulate leading constituents on minor pullbacks; position for quadrant breakout into Leading."
+        }
+      ]
+    },
     {
       "id": "IMPROVING_MOMENTUM",
       "title": "Improving Momentum",
@@ -20,49 +56,49 @@
       "badge_color": "green",
       "alerts": [
         {
-          "sector": "NIFTY BANK",
-          "heading_angle": "72\u00b0 (Positive North-East)",
-          "rs_ratio": 102.08,
-          "rs_momentum": 103.24,
-          "signal": "Momentum Inflection (+2.96 pts 1W)",
-          "summary": "Nifty Bank Index registered the sharpest weekly relative momentum velocity (+2.96). Current RS-Ratio stands at 102.08. Recent 1-Week return of 5.9% outperforms benchmark.",
-          "conviction": "CONFIRMED (11d Streak + Positive Vector)",
+          "sector": "NIFTY PHARMA",
+          "heading_angle": "51\u00b0 (Positive North-East)",
+          "rs_ratio": 101.28,
+          "rs_momentum": 102.07,
+          "signal": "Momentum Inflection (+3.38 pts 1W)",
+          "summary": "Nifty Pharma Index registered the sharpest weekly relative momentum velocity (+3.38). Current RS-Ratio stands at 101.28. Recent 1-Week return of 2.86% outperforms benchmark.",
+          "conviction": "EARLY SIGNAL (1d - Pending Streak Confirmation)",
           "signal_quality": {
-            "symbol": "NIFTY BANK",
+            "symbol": "NIFTY PHARMA",
             "raw_quadrant": "LEADING",
-            "consecutive_sessions": 11,
+            "consecutive_sessions": 1,
             "persistence_threshold": 2,
-            "persistence_met": true,
+            "persistence_met": false,
             "heading": {
-              "angle": 72.0,
+              "angle": 51.0,
               "is_positive": true,
               "direction_label": "North-East (Accelerating Alpha & Momentum)",
               "confirmation_enabled": false,
               "confirmed": true
             },
-            "is_confirmed": true,
-            "confirmation_type": "PERSISTENCE_CONFIRMED",
-            "conviction_rating": "HIGH CONVICTION - CONFIRMED",
-            "quality_badge": "CONFIRMED (11d Streak + Positive Vector)"
+            "is_confirmed": false,
+            "confirmation_type": "UNCONFIRMED_EARLY",
+            "conviction_rating": "EARLY PROVISIONAL",
+            "quality_badge": "EARLY SIGNAL (1d - Pending Streak Confirmation)"
           },
           "institutional_action": "Tactical overweight; initiate directional momentum swing positions."
         },
         {
-          "sector": "NIFTY PVT BANK",
-          "heading_angle": "57\u00b0 (Positive North-East)",
-          "rs_ratio": 102.7,
-          "rs_momentum": 102.93,
-          "signal": "Momentum Inflection (+2.81 pts 1W)",
-          "summary": "Nifty Private Bank Index registered the sharpest weekly relative momentum velocity (+2.81). Current RS-Ratio stands at 102.70. Recent 1-Week return of 5.65% outperforms benchmark.",
-          "conviction": "CONFIRMED (11d Streak + Positive Vector)",
+          "sector": "NIFTY IT",
+          "heading_angle": "66\u00b0 (Positive North-East)",
+          "rs_ratio": 99.97,
+          "rs_momentum": 101.6,
+          "signal": "Momentum Inflection (+3.0 pts 1W)",
+          "summary": "Nifty IT Index registered the sharpest weekly relative momentum velocity (+3.0). Current RS-Ratio stands at 99.97. Recent 1-Week return of 1.75% outperforms benchmark.",
+          "conviction": "CONFIRMED (2d Streak + Positive Vector)",
           "signal_quality": {
-            "symbol": "NIFTY PVT BANK",
-            "raw_quadrant": "LEADING",
-            "consecutive_sessions": 11,
+            "symbol": "NIFTY IT",
+            "raw_quadrant": "IMPROVING",
+            "consecutive_sessions": 2,
             "persistence_threshold": 2,
             "persistence_met": true,
             "heading": {
-              "angle": 57.0,
+              "angle": 66.0,
               "is_positive": true,
               "direction_label": "North-East (Accelerating Alpha & Momentum)",
               "confirmation_enabled": false,
@@ -71,7 +107,7 @@
             "is_confirmed": true,
             "confirmation_type": "PERSISTENCE_CONFIRMED",
             "conviction_rating": "HIGH CONVICTION - CONFIRMED",
-            "quality_badge": "CONFIRMED (11d Streak + Positive Vector)"
+            "quality_badge": "CONFIRMED (2d Streak + Positive Vector)"
           },
           "institutional_action": "Tactical overweight; initiate directional momentum swing positions."
         }
@@ -84,23 +120,51 @@
       "badge_color": "yellow",
       "alerts": [
         {
-          "sector": "NIFTY INFRA",
-          "heading_angle": "33\u00b0 (Trajectory)",
-          "rs_ratio": 100.13,
-          "rs_momentum": 99.85,
-          "signal": "Weakening Rollover (RS-Momentum: 99.85)",
-          "summary": "Nifty Infrastructure Index is undergoing momentum deceleration (RS-Momentum: 99.85). While RS-Ratio remains above 100 (100.13), breadth is contracting with only 61.6% of constituents above their 20 DMA.",
+          "sector": "NIFTY PSU BANK",
+          "heading_angle": "241\u00b0 (South-West Deceleration)",
+          "rs_ratio": 100.34,
+          "rs_momentum": 98.54,
+          "signal": "Weakening Rollover (RS-Momentum: 98.54)",
+          "summary": "Nifty PSU Bank Index is undergoing momentum deceleration (RS-Momentum: 98.54). While RS-Ratio remains above 100 (100.34), breadth is contracting with only 100.0% of constituents above their 20 DMA.",
+          "conviction": "CONFIRMED (2d Streak)",
+          "signal_quality": {
+            "symbol": "NIFTY PSU BANK",
+            "raw_quadrant": "WEAKENING",
+            "consecutive_sessions": 2,
+            "persistence_threshold": 2,
+            "persistence_met": true,
+            "heading": {
+              "angle": 241.0,
+              "is_positive": false,
+              "direction_label": "Rotational (241.0\u00b0)",
+              "confirmation_enabled": false,
+              "confirmed": true
+            },
+            "is_confirmed": true,
+            "confirmation_type": "PERSISTENCE_CONFIRMED",
+            "conviction_rating": "MODERATE CONVICTION - CONFIRMED",
+            "quality_badge": "CONFIRMED (2d Streak)"
+          },
+          "institutional_action": "Trim trailing profits; raise protective stops on high-beta constituents."
+        },
+        {
+          "sector": "NIFTY REALTY",
+          "heading_angle": "245\u00b0 (South-West Deceleration)",
+          "rs_ratio": 100.86,
+          "rs_momentum": 99.63,
+          "signal": "Weakening Rollover (RS-Momentum: 99.63)",
+          "summary": "Nifty Realty Index is undergoing momentum deceleration (RS-Momentum: 99.63). While RS-Ratio remains above 100 (100.86), breadth is contracting with only 92.3% of constituents above their 20 DMA.",
           "conviction": "EARLY SIGNAL (1d - Pending Streak Confirmation)",
           "signal_quality": {
-            "symbol": "NIFTY INFRA",
+            "symbol": "NIFTY REALTY",
             "raw_quadrant": "WEAKENING",
             "consecutive_sessions": 1,
             "persistence_threshold": 2,
             "persistence_met": false,
             "heading": {
-              "angle": 33.0,
-              "is_positive": true,
-              "direction_label": "North-East (Accelerating Alpha & Momentum)",
+              "angle": 245.0,
+              "is_positive": false,
+              "direction_label": "Rotational (245.0\u00b0)",
               "confirmation_enabled": false,
               "confirmed": true
             },
@@ -120,21 +184,21 @@
       "badge_color": "blue",
       "alerts": [
         {
-          "sector": "NIFTY PVT BANK",
-          "heading_angle": "57\u00b0 (Positive North-East)",
-          "rs_ratio": 102.7,
-          "rs_momentum": 102.93,
-          "signal": "Leading Quadrant Confirmation (Score: 82.5)",
-          "summary": "Nifty Private Bank Index anchors primary sector leadership with a Composite Strength Score of 82.5/100. RS-Ratio (102.70) and RS-Momentum (102.93) are mutually supportive. Participation breadth stands at 100.0%.",
-          "conviction": "CONFIRMED (11d Streak + Positive Vector)",
+          "sector": "NIFTY HEALTHCARE",
+          "heading_angle": "44\u00b0 (Positive North-East)",
+          "rs_ratio": 102.31,
+          "rs_momentum": 102.19,
+          "signal": "Leading Quadrant Confirmation (Score: 75.3)",
+          "summary": "Nifty Healthcare Index anchors primary sector leadership with a Composite Strength Score of 75.3/100. RS-Ratio (102.31) and RS-Momentum (102.19) are mutually supportive. Participation breadth stands at 90.0%.",
+          "conviction": "CONFIRMED (2d Streak + Positive Vector)",
           "signal_quality": {
-            "symbol": "NIFTY PVT BANK",
+            "symbol": "NIFTY HEALTHCARE",
             "raw_quadrant": "LEADING",
-            "consecutive_sessions": 11,
+            "consecutive_sessions": 2,
             "persistence_threshold": 2,
             "persistence_met": true,
             "heading": {
-              "angle": 57.0,
+              "angle": 44.0,
               "is_positive": true,
               "direction_label": "North-East (Accelerating Alpha & Momentum)",
               "confirmation_enabled": false,
@@ -143,26 +207,26 @@
             "is_confirmed": true,
             "confirmation_type": "PERSISTENCE_CONFIRMED",
             "conviction_rating": "HIGH CONVICTION - CONFIRMED",
-            "quality_badge": "CONFIRMED (11d Streak + Positive Vector)"
+            "quality_badge": "CONFIRMED (2d Streak + Positive Vector)"
           },
           "institutional_action": "Maintain core institutional overweight; hold primary breakout winners."
         },
         {
-          "sector": "NIFTY BANK",
-          "heading_angle": "72\u00b0 (Positive North-East)",
-          "rs_ratio": 102.08,
-          "rs_momentum": 103.24,
-          "signal": "Leading Quadrant Confirmation (Score: 81.2)",
-          "summary": "Nifty Bank Index anchors primary sector leadership with a Composite Strength Score of 81.2/100. RS-Ratio (102.08) and RS-Momentum (103.24) are mutually supportive. Participation breadth stands at 100.0%.",
-          "conviction": "CONFIRMED (11d Streak + Positive Vector)",
+          "sector": "NIFTY FMCG",
+          "heading_angle": "25\u00b0 (Positive North-East)",
+          "rs_ratio": 102.21,
+          "rs_momentum": 101.39,
+          "signal": "Leading Quadrant Confirmation (Score: 70.3)",
+          "summary": "Nifty FMCG Index anchors primary sector leadership with a Composite Strength Score of 70.3/100. RS-Ratio (102.21) and RS-Momentum (101.39) are mutually supportive. Participation breadth stands at 75.0%.",
+          "conviction": "CONFIRMED (7d Streak + Positive Vector)",
           "signal_quality": {
-            "symbol": "NIFTY BANK",
+            "symbol": "NIFTY FMCG",
             "raw_quadrant": "LEADING",
-            "consecutive_sessions": 11,
+            "consecutive_sessions": 7,
             "persistence_threshold": 2,
             "persistence_met": true,
             "heading": {
-              "angle": 72.0,
+              "angle": 25.0,
               "is_positive": true,
               "direction_label": "North-East (Accelerating Alpha & Momentum)",
               "confirmation_enabled": false,
@@ -171,7 +235,7 @@
             "is_confirmed": true,
             "confirmation_type": "PERSISTENCE_CONFIRMED",
             "conviction_rating": "HIGH CONVICTION - CONFIRMED",
-            "quality_badge": "CONFIRMED (11d Streak + Positive Vector)"
+            "quality_badge": "CONFIRMED (7d Streak + Positive Vector)"
           },
           "institutional_action": "Maintain core institutional overweight; hold primary breakout winners."
         }
