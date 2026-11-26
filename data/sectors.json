@@ -23,7 +23,7 @@
       "6M": 4.78,
       "1Y": 0.84
     },
-    "calculated_at": "2026-11-25T14:24:28.938949"
+    "calculated_at": "2026-11-26T22:02:30.827844"
   },
   "sectors": [
     {
@@ -883,12 +883,12 @@
       "market_cap_weight_pct": 1.07,
       "pe_ratio": 39.57,
       "proximity_52w_high_pct": 100.0,
-      "advance_decline_ratio": "6:5",
+      "advance_decline_ratio": "6:7",
       "breadth": {
-        "pct_above_20dma": 92.3,
+        "pct_above_20dma": 84.6,
         "pct_above_50dma": 76.9,
         "pct_above_200dma": 61.5,
-        "participation_score": 73.4
+        "participation_score": 65.4
       },
       "performance": {
         "1D": 0.02,
@@ -906,12 +906,12 @@
         "6M": 15.06,
         "1Y": 0.75
       },
-      "composite_score": 60.0,
+      "composite_score": 58.0,
       "scores": {
-        "composite_score": 60.0,
+        "composite_score": 58.0,
         "rs_component_score": 58.6,
         "momentum_component_score": 46.3,
-        "breadth_component_score": 73.4,
+        "breadth_component_score": 65.4,
         "performance_consistency_score": 64.0
       },
       "transition": {

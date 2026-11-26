@@ -3,12 +3,12 @@
     "system": "MITS 360\u00b0 Sector Forward Outlook Engine",
     "version": "1.0.0",
     "product": "Sector Forward Outlook Intelligence",
-    "generated_at": "2026-11-25T14:24:28.934466",
+    "generated_at": "2026-11-26T22:02:30.823578",
     "latest_trade_date": "2026-11-25",
     "benchmark": "NIFTY 500",
     "total_sectors_evaluated": 16,
     "historical_sessions_analyzed": 260,
-    "execution_time_seconds": 1.97,
+    "execution_time_seconds": 1.88,
     "data_status": "AUTHENTIC_QUANTITATIVE_OUTLOOK",
     "disclaimer": "Forward outlooks represent historical-data-based probabilistic estimates, not guaranteed future performance forecasts."
   },
@@ -454,7 +454,7 @@
           "rationale": {
             "rs_driver": "Positive relative strength baseline (RS-Ratio 100.9), holding above the 100.0 benchmark threshold.",
             "momentum_driver": "Rotation vector points South-West (Exhaustion / Lagging) at 245.2\u00b0 with velocity of 1.16. RS-Momentum stands at 99.6.",
-            "breadth_driver": "Broad constituent breadth with 92.3% of sector stocks trading above their 20 DMA (A/D: 6:5).",
+            "breadth_driver": "Broad constituent breadth with 84.6% of sector stocks trading above their 20 DMA (A/D: 6:7).",
             "horizon_synthesis": "Nifty Realty exhibits balanced consolidation. Forward relative performance expected to track close to NIFTY 500."
           },
           "rank": 13
@@ -954,7 +954,7 @@
           "rationale": {
             "rs_driver": "Positive relative strength baseline (RS-Ratio 100.9), holding above the 100.0 benchmark threshold.",
             "momentum_driver": "Rotation vector points South-West (Exhaustion / Lagging) at 245.2\u00b0 with velocity of 1.16. RS-Momentum stands at 99.6.",
-            "breadth_driver": "Broad constituent breadth with 92.3% of sector stocks trading above their 20 DMA (A/D: 6:5).",
+            "breadth_driver": "Broad constituent breadth with 84.6% of sector stocks trading above their 20 DMA (A/D: 6:7).",
             "horizon_synthesis": "Nifty Realty exhibits balanced consolidation. Forward relative performance expected to track close to NIFTY 500."
           },
           "rank": 12
@@ -1558,7 +1558,7 @@
           "rationale": {
             "rs_driver": "Positive relative strength baseline (RS-Ratio 100.9), holding above the 100.0 benchmark threshold.",
             "momentum_driver": "Rotation vector points South-West (Exhaustion / Lagging) at 245.2\u00b0 with velocity of 1.16. RS-Momentum stands at 99.6.",
-            "breadth_driver": "Broad constituent breadth with 92.3% of sector stocks trading above their 20 DMA (A/D: 6:5).",
+            "breadth_driver": "Broad constituent breadth with 84.6% of sector stocks trading above their 20 DMA (A/D: 6:7).",
             "horizon_synthesis": "Nifty Realty exhibits balanced consolidation. Forward relative performance expected to track close to NIFTY 500."
           },
           "rank": 15
