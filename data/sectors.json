@@ -4,195 +4,75 @@
     "product": "Sector Rotation Intelligence",
     "phase": "PHASE 3 - INSTITUTIONAL QUANTITATIVE ENGINE",
     "benchmark": "NIFTY 500 Index (Origin = 100.00, 100.00)",
-    "timestamp": "2026-11-25T15:30:00+05:30",
-    "latest_trade_date": "2026-11-25",
+    "timestamp": "2026-11-26T15:30:00+05:30",
+    "latest_trade_date": "2026-11-26",
     "market_status": "CLOSED - EOD SESSION PROCESSED",
     "data_source": "Official NSE EOD Bhavcopy & Index Records",
     "total_sectors_tracked": 16,
     "summary_counts": {
-      "leading": 6,
-      "improving": 1,
-      "weakening": 3,
-      "lagging": 6
+      "leading": 5,
+      "improving": 2,
+      "weakening": 4,
+      "lagging": 5
     },
     "benchmark_returns": {
-      "1D": 1.17,
-      "1W": 0.85,
-      "1M": 12.12,
-      "3M": 2.1,
-      "6M": 4.78,
-      "1Y": 0.84
+      "1D": 0.25,
+      "1W": 1.93,
+      "1M": 11.47,
+      "3M": 2.44,
+      "6M": 5.19,
+      "1Y": 0.75
     },
-    "calculated_at": "2026-11-27T01:29:40.129862"
+    "calculated_at": "2026-11-27T21:46:22.406316"
   },
   "sectors": [
     {
-      "id": "HEALTHCARE",
-      "symbol": "NIFTY HEALTHCARE",
-      "name": "Nifty Healthcare Index",
-      "category": "Healthcare / Defensive",
+      "id": "REALTY",
+      "symbol": "NIFTY REALTY",
+      "name": "Nifty Realty Index",
+      "category": "Real Estate / High Beta",
       "quadrant": "LEADING",
-      "current_rs_ratio": 102.31,
-      "current_rs_momentum": 102.19,
-      "change_rs_ratio_1w": 3.11,
-      "change_rs_momentum_1w": 2.99,
-      "rotation_heading": 44,
+      "current_rs_ratio": 102.73,
+      "current_rs_momentum": 102.23,
+      "change_rs_ratio_1w": 1.48,
+      "change_rs_momentum_1w": 1.79,
+      "rotation_heading": 50,
       "rotation_velocity": "Very High",
       "weeks_in_quadrant": 1,
-      "consecutive_sessions_in_quadrant": 2,
-      "market_cap_weight_pct": 4.33,
-      "pe_ratio": 48.09,
+      "consecutive_sessions_in_quadrant": 1,
+      "market_cap_weight_pct": 2.26,
+      "pe_ratio": 40.87,
       "proximity_52w_high_pct": 100.0,
-      "advance_decline_ratio": "18:2",
+      "advance_decline_ratio": "12:1",
       "breadth": {
-        "pct_above_20dma": 90.0,
-        "pct_above_50dma": 85.0,
-        "pct_above_200dma": 80.0,
-        "participation_score": 90.0
+        "pct_above_20dma": 92.3,
+        "pct_above_50dma": 76.9,
+        "pct_above_200dma": 69.2,
+        "participation_score": 92.3
       },
       "performance": {
-        "1D": 2.13,
-        "1W": 3.31,
-        "1M": 15.71,
-        "3M": 8.4,
-        "6M": 13.36,
-        "1Y": 20.09
+        "1D": 3.27,
+        "1W": 5.9,
+        "1M": 23.19,
+        "3M": 6.08,
+        "6M": 24.41,
+        "1Y": 5.28
       },
       "alpha": {
-        "1D": 0.96,
-        "1W": 2.46,
-        "1M": 3.59,
-        "3M": 6.3,
-        "6M": 8.58,
-        "1Y": 19.25
+        "1D": 3.02,
+        "1W": 3.97,
+        "1M": 11.72,
+        "3M": 3.64,
+        "6M": 19.22,
+        "1Y": 4.53
       },
-      "composite_score": 75.3,
+      "composite_score": 79.8,
       "scores": {
-        "composite_score": 75.3,
-        "rs_component_score": 73.1,
-        "momentum_component_score": 71.9,
-        "breadth_component_score": 90.0,
-        "performance_consistency_score": 61.5
-      },
-      "transition": {
-        "has_transitioned": true,
-        "previous_quadrant": "LAGGING",
-        "transition_signal": "LAGGING_TO_LEADING",
-        "transition_description": "Active quadrant rotation from LAGGING to LEADING"
-      },
-      "historical_trail": [
-        {
-          "week": "T-4",
-          "date": "2026-10-26",
-          "rs_ratio": 101.25,
-          "rs_momentum": 101.66
-        },
-        {
-          "week": "T-3",
-          "date": "2026-11-02",
-          "rs_ratio": 100.68,
-          "rs_momentum": 99.97
-        },
-        {
-          "week": "T-2",
-          "date": "2026-11-09",
-          "rs_ratio": 101.07,
-          "rs_momentum": 101.03
-        },
-        {
-          "week": "T-1",
-          "date": "2026-11-17",
-          "rs_ratio": 99.2,
-          "rs_momentum": 99.2
-        },
-        {
-          "week": "T-0",
-          "date": "2026-11-25",
-          "rs_ratio": 102.31,
-          "rs_momentum": 102.19
-        }
-      ],
-      "signal_evaluation": {
-        "symbol": "NIFTY HEALTHCARE",
-        "raw_quadrant": "LEADING",
-        "consecutive_sessions": 2,
-        "persistence_threshold": 2,
-        "persistence_met": true,
-        "heading": {
-          "angle": 44.0,
-          "is_positive": true,
-          "direction_label": "North-East (Accelerating Alpha & Momentum)",
-          "confirmation_enabled": false,
-          "confirmed": true
-        },
-        "is_confirmed": true,
-        "confirmation_type": "PERSISTENCE_CONFIRMED",
-        "conviction_rating": "HIGH CONVICTION - CONFIRMED",
-        "quality_badge": "CONFIRMED (2d Streak + Positive Vector)"
-      },
-      "key_drivers": [
-        "Hospital bed expansion & ARPOB elevation",
-        "Diagnostic testing volume normalisation",
-        "Medical tourism demand resurgence"
-      ],
-      "institutional_flow": "Steady DII Inflow",
-      "top_performers": [
-        "APOLLOHOSP",
-        "DIVISLAB",
-        "LAURUSLABS"
-      ],
-      "weak_performers": [
-        "IPCALAB",
-        "ALKEM"
-      ]
-    },
-    {
-      "id": "FMCG",
-      "symbol": "NIFTY FMCG",
-      "name": "Nifty FMCG Index",
-      "category": "Consumer Staples / Defensive",
-      "quadrant": "LEADING",
-      "current_rs_ratio": 102.21,
-      "current_rs_momentum": 101.39,
-      "change_rs_ratio_1w": 1.83,
-      "change_rs_momentum_1w": 0.85,
-      "rotation_heading": 25,
-      "rotation_velocity": "Very High",
-      "weeks_in_quadrant": 1,
-      "consecutive_sessions_in_quadrant": 7,
-      "market_cap_weight_pct": 4.21,
-      "pe_ratio": 35.21,
-      "proximity_52w_high_pct": 100.0,
-      "advance_decline_ratio": "21:7",
-      "breadth": {
-        "pct_above_20dma": 75.0,
-        "pct_above_50dma": 75.0,
-        "pct_above_200dma": 50.0,
-        "participation_score": 75.0
-      },
-      "performance": {
-        "1D": 3.79,
-        "1W": 5.32,
-        "1M": 17.49,
-        "3M": 5.54,
-        "6M": -0.03,
-        "1Y": -9.43
-      },
-      "alpha": {
-        "1D": 2.62,
-        "1W": 4.47,
-        "1M": 5.37,
-        "3M": 3.44,
-        "6M": -4.81,
-        "1Y": -10.27
-      },
-      "composite_score": 70.3,
-      "scores": {
-        "composite_score": 70.3,
-        "rs_component_score": 72.1,
-        "momentum_component_score": 63.9,
-        "breadth_component_score": 75.0,
-        "performance_consistency_score": 69.2
+        "composite_score": 79.8,
+        "rs_component_score": 77.3,
+        "momentum_component_score": 72.3,
+        "breadth_component_score": 92.3,
+        "performance_consistency_score": 77.5
       },
       "transition": {
         "has_transitioned": false,
@@ -203,163 +83,43 @@
       "historical_trail": [
         {
           "week": "T-4",
-          "date": "2026-10-26",
-          "rs_ratio": 98.76,
-          "rs_momentum": 99.35
+          "date": "2026-10-27",
+          "rs_ratio": 100.16,
+          "rs_momentum": 101.65
         },
         {
           "week": "T-3",
-          "date": "2026-11-02",
-          "rs_ratio": 98.11,
-          "rs_momentum": 97.89
+          "date": "2026-11-03",
+          "rs_ratio": 101.17,
+          "rs_momentum": 101.2
         },
         {
           "week": "T-2",
-          "date": "2026-11-09",
-          "rs_ratio": 98.86,
-          "rs_momentum": 99.12
+          "date": "2026-11-11",
+          "rs_ratio": 99.79,
+          "rs_momentum": 99.06
         },
         {
           "week": "T-1",
-          "date": "2026-11-17",
-          "rs_ratio": 100.38,
-          "rs_momentum": 100.54
+          "date": "2026-11-18",
+          "rs_ratio": 101.25,
+          "rs_momentum": 100.44
         },
         {
           "week": "T-0",
-          "date": "2026-11-25",
-          "rs_ratio": 102.21,
-          "rs_momentum": 101.39
+          "date": "2026-11-26",
+          "rs_ratio": 102.73,
+          "rs_momentum": 102.23
         }
       ],
       "signal_evaluation": {
-        "symbol": "NIFTY FMCG",
-        "raw_quadrant": "LEADING",
-        "consecutive_sessions": 7,
-        "persistence_threshold": 2,
-        "persistence_met": true,
-        "heading": {
-          "angle": 25.0,
-          "is_positive": true,
-          "direction_label": "North-East (Accelerating Alpha & Momentum)",
-          "confirmation_enabled": false,
-          "confirmed": true
-        },
-        "is_confirmed": true,
-        "confirmation_type": "PERSISTENCE_CONFIRMED",
-        "conviction_rating": "HIGH CONVICTION - CONFIRMED",
-        "quality_badge": "CONFIRMED (7d Streak + Positive Vector)"
-      },
-      "key_drivers": [
-        "Rural consumption demand revival",
-        "Stable agricultural commodity inputs",
-        "Premium product portfolio expansion"
-      ],
-      "institutional_flow": "Defensive Inflow",
-      "top_performers": [
-        "DABUR",
-        "DOMS",
-        "BRITANNIA"
-      ],
-      "weak_performers": [
-        "AVANTIFEED",
-        "BALRAMCHIN"
-      ]
-    },
-    {
-      "id": "PHARMA",
-      "symbol": "NIFTY PHARMA",
-      "name": "Nifty Pharma Index",
-      "category": "Healthcare / Defensive",
-      "quadrant": "LEADING",
-      "current_rs_ratio": 101.28,
-      "current_rs_momentum": 102.07,
-      "change_rs_ratio_1w": 2.69,
-      "change_rs_momentum_1w": 3.38,
-      "rotation_heading": 51,
-      "rotation_velocity": "Very High",
-      "weeks_in_quadrant": 1,
-      "consecutive_sessions_in_quadrant": 1,
-      "market_cap_weight_pct": 3.96,
-      "pe_ratio": 46.59,
-      "proximity_52w_high_pct": 100.0,
-      "advance_decline_ratio": "32:8",
-      "breadth": {
-        "pct_above_20dma": 85.0,
-        "pct_above_50dma": 80.0,
-        "pct_above_200dma": 82.5,
-        "participation_score": 82.5
-      },
-      "performance": {
-        "1D": 2.38,
-        "1W": 2.86,
-        "1M": 14.34,
-        "3M": 9.87,
-        "6M": 17.37,
-        "1Y": 27.51
-      },
-      "alpha": {
-        "1D": 1.21,
-        "1W": 2.01,
-        "1M": 2.22,
-        "3M": 7.77,
-        "6M": 12.59,
-        "1Y": 26.67
-      },
-      "composite_score": 69.0,
-      "scores": {
-        "composite_score": 69.0,
-        "rs_component_score": 62.8,
-        "momentum_component_score": 70.7,
-        "breadth_component_score": 82.5,
-        "performance_consistency_score": 58.4
-      },
-      "transition": {
-        "has_transitioned": true,
-        "previous_quadrant": "LAGGING",
-        "transition_signal": "LAGGING_TO_LEADING",
-        "transition_description": "Active quadrant rotation from LAGGING to LEADING"
-      },
-      "historical_trail": [
-        {
-          "week": "T-4",
-          "date": "2026-10-26",
-          "rs_ratio": 101.29,
-          "rs_momentum": 101.39
-        },
-        {
-          "week": "T-3",
-          "date": "2026-11-02",
-          "rs_ratio": 100.6,
-          "rs_momentum": 99.73
-        },
-        {
-          "week": "T-2",
-          "date": "2026-11-09",
-          "rs_ratio": 101.66,
-          "rs_momentum": 101.5
-        },
-        {
-          "week": "T-1",
-          "date": "2026-11-17",
-          "rs_ratio": 98.59,
-          "rs_momentum": 98.69
-        },
-        {
-          "week": "T-0",
-          "date": "2026-11-25",
-          "rs_ratio": 101.28,
-          "rs_momentum": 102.07
-        }
-      ],
-      "signal_evaluation": {
-        "symbol": "NIFTY PHARMA",
+        "symbol": "NIFTY REALTY",
         "raw_quadrant": "LEADING",
         "consecutive_sessions": 1,
         "persistence_threshold": 2,
         "persistence_met": false,
         "heading": {
-          "angle": 51.0,
+          "angle": 50.0,
           "is_positive": true,
           "direction_label": "North-East (Accelerating Alpha & Momentum)",
           "confirmation_enabled": false,
@@ -371,68 +131,188 @@
         "quality_badge": "EARLY SIGNAL (1d - Pending Streak Confirmation)"
       },
       "key_drivers": [
-        "US generic pricing stabilization",
-        "Domestic formulation volume consistency",
-        "Biosimilar commercialization"
+        "Multi-year residential sales supercycle",
+        "Inventory absorption at record highs",
+        "Commercial office leasing absorption"
       ],
-      "institutional_flow": "Defensive Sector Rotation",
+      "institutional_flow": "High Beta Capital Allocation",
       "top_performers": [
-        "VIJAYA",
-        "COHANCE",
-        "DIVISLAB"
+        "PRESTIGE",
+        "BRIGADE",
+        "GODREJPROP"
       ],
       "weak_performers": [
-        "PPLPHARMA",
-        "CAPLIPOINT"
+        "BIRET",
+        "ANANTRAJ"
       ]
     },
     {
-      "id": "FIN_SERVICE",
-      "symbol": "NIFTY FIN SERVICE",
-      "name": "Nifty Financial Services Index",
-      "category": "Financials",
+      "id": "IT",
+      "symbol": "NIFTY IT",
+      "name": "Nifty IT Index",
+      "category": "Technology / Exporters",
       "quadrant": "LEADING",
-      "current_rs_ratio": 101.94,
-      "current_rs_momentum": 101.49,
-      "change_rs_ratio_1w": 0.77,
-      "change_rs_momentum_1w": 1.27,
-      "rotation_heading": 59,
+      "current_rs_ratio": 101.76,
+      "current_rs_momentum": 102.43,
+      "change_rs_ratio_1w": 3.24,
+      "change_rs_momentum_1w": 4.45,
+      "rotation_heading": 54,
       "rotation_velocity": "Very High",
       "weeks_in_quadrant": 1,
       "consecutive_sessions_in_quadrant": 1,
-      "market_cap_weight_pct": 13.35,
-      "pe_ratio": 16.93,
-      "proximity_52w_high_pct": 99.6,
-      "advance_decline_ratio": "50:31",
+      "market_cap_weight_pct": 6.55,
+      "pe_ratio": 20.29,
+      "proximity_52w_high_pct": 100.0,
+      "advance_decline_ratio": "18:7",
       "breadth": {
-        "pct_above_20dma": 74.1,
-        "pct_above_50dma": 63.0,
-        "pct_above_200dma": 46.9,
-        "participation_score": 67.9
+        "pct_above_20dma": 76.0,
+        "pct_above_50dma": 76.0,
+        "pct_above_200dma": 66.7,
+        "participation_score": 74.0
       },
       "performance": {
-        "1D": 2.17,
-        "1W": 2.02,
-        "1M": 17.87,
-        "3M": 9.53,
-        "6M": 10.2,
-        "1Y": 4.42
+        "1D": 3.66,
+        "1W": 6.8,
+        "1M": 3.45,
+        "3M": 9.12,
+        "6M": 15.21,
+        "1Y": -9.87
       },
       "alpha": {
-        "1D": 1.0,
-        "1W": 1.17,
-        "1M": 5.75,
-        "3M": 7.43,
-        "6M": 5.42,
-        "1Y": 3.58
+        "1D": 3.41,
+        "1W": 4.87,
+        "1M": -8.02,
+        "3M": 6.68,
+        "6M": 10.02,
+        "1Y": -10.62
       },
-      "composite_score": 66.7,
+      "composite_score": 68.2,
       "scores": {
-        "composite_score": 66.7,
-        "rs_component_score": 69.4,
-        "momentum_component_score": 64.9,
-        "breadth_component_score": 67.9,
-        "performance_consistency_score": 61.5
+        "composite_score": 68.2,
+        "rs_component_score": 67.6,
+        "momentum_component_score": 74.3,
+        "breadth_component_score": 74.0,
+        "performance_consistency_score": 50.1
+      },
+      "transition": {
+        "has_transitioned": true,
+        "previous_quadrant": "LAGGING",
+        "transition_signal": "LAGGING_TO_LEADING",
+        "transition_description": "Active quadrant rotation from LAGGING to LEADING"
+      },
+      "historical_trail": [
+        {
+          "week": "T-4",
+          "date": "2026-10-27",
+          "rs_ratio": 100.95,
+          "rs_momentum": 99.05
+        },
+        {
+          "week": "T-3",
+          "date": "2026-11-03",
+          "rs_ratio": 99.58,
+          "rs_momentum": 98.07
+        },
+        {
+          "week": "T-2",
+          "date": "2026-11-11",
+          "rs_ratio": 98.37,
+          "rs_momentum": 98.9
+        },
+        {
+          "week": "T-1",
+          "date": "2026-11-18",
+          "rs_ratio": 98.52,
+          "rs_momentum": 97.98
+        },
+        {
+          "week": "T-0",
+          "date": "2026-11-26",
+          "rs_ratio": 101.76,
+          "rs_momentum": 102.43
+        }
+      ],
+      "signal_evaluation": {
+        "symbol": "NIFTY IT",
+        "raw_quadrant": "LEADING",
+        "consecutive_sessions": 1,
+        "persistence_threshold": 2,
+        "persistence_met": false,
+        "heading": {
+          "angle": 54.0,
+          "is_positive": true,
+          "direction_label": "North-East (Accelerating Alpha & Momentum)",
+          "confirmation_enabled": false,
+          "confirmed": true
+        },
+        "is_confirmed": false,
+        "confirmation_type": "UNCONFIRMED_EARLY",
+        "conviction_rating": "EARLY PROVISIONAL",
+        "quality_badge": "EARLY SIGNAL (1d - Pending Streak Confirmation)"
+      },
+      "key_drivers": [
+        "US enterprise software spending recovery",
+        "Generative AI deal implementation pipeline",
+        "Attrition moderation & margin tailwinds"
+      ],
+      "institutional_flow": "Aggressive Rotational Inflow",
+      "top_performers": [
+        "TCS",
+        "HCLTECH",
+        "LTM"
+      ],
+      "weak_performers": [
+        "IKS",
+        "OFSS"
+      ]
+    },
+    {
+      "id": "HEALTHCARE",
+      "symbol": "NIFTY HEALTHCARE",
+      "name": "Nifty Healthcare Index",
+      "category": "Healthcare / Defensive",
+      "quadrant": "LEADING",
+      "current_rs_ratio": 101.5,
+      "current_rs_momentum": 100.93,
+      "change_rs_ratio_1w": 1.03,
+      "change_rs_momentum_1w": -0.27,
+      "rotation_heading": 345,
+      "rotation_velocity": "High",
+      "weeks_in_quadrant": 1,
+      "consecutive_sessions_in_quadrant": 3,
+      "market_cap_weight_pct": 4.18,
+      "pe_ratio": 48.18,
+      "proximity_52w_high_pct": 100.0,
+      "advance_decline_ratio": "10:9",
+      "breadth": {
+        "pct_above_20dma": 85.0,
+        "pct_above_50dma": 85.0,
+        "pct_above_200dma": 80.0,
+        "participation_score": 68.8
+      },
+      "performance": {
+        "1D": 0.2,
+        "1W": 3.45,
+        "1M": 13.93,
+        "3M": 8.66,
+        "6M": 13.89,
+        "1Y": 19.76
+      },
+      "alpha": {
+        "1D": -0.05,
+        "1W": 1.52,
+        "1M": 2.46,
+        "3M": 6.22,
+        "6M": 8.7,
+        "1Y": 19.01
+      },
+      "composite_score": 63.4,
+      "scores": {
+        "composite_score": 63.4,
+        "rs_component_score": 65.0,
+        "momentum_component_score": 59.3,
+        "breadth_component_score": 68.8,
+        "performance_consistency_score": 57.5
       },
       "transition": {
         "has_transitioned": false,
@@ -443,45 +323,285 @@
       "historical_trail": [
         {
           "week": "T-4",
-          "date": "2026-10-26",
-          "rs_ratio": 99.21,
-          "rs_momentum": 98.29
+          "date": "2026-10-27",
+          "rs_ratio": 101.77,
+          "rs_momentum": 101.49
         },
         {
           "week": "T-3",
-          "date": "2026-11-02",
-          "rs_ratio": 98.55,
-          "rs_momentum": 98.77
+          "date": "2026-11-03",
+          "rs_ratio": 100.27,
+          "rs_momentum": 99.46
         },
         {
           "week": "T-2",
-          "date": "2026-11-09",
-          "rs_ratio": 101.57,
-          "rs_momentum": 100.71
+          "date": "2026-11-11",
+          "rs_ratio": 99.8,
+          "rs_momentum": 99.6
         },
         {
           "week": "T-1",
-          "date": "2026-11-17",
-          "rs_ratio": 101.17,
-          "rs_momentum": 100.22
+          "date": "2026-11-18",
+          "rs_ratio": 100.47,
+          "rs_momentum": 101.2
         },
         {
           "week": "T-0",
-          "date": "2026-11-25",
-          "rs_ratio": 101.94,
+          "date": "2026-11-26",
+          "rs_ratio": 101.5,
+          "rs_momentum": 100.93
+        }
+      ],
+      "signal_evaluation": {
+        "symbol": "NIFTY HEALTHCARE",
+        "raw_quadrant": "LEADING",
+        "consecutive_sessions": 3,
+        "persistence_threshold": 2,
+        "persistence_met": true,
+        "heading": {
+          "angle": 345.0,
+          "is_positive": false,
+          "direction_label": "Rotational (345.0\u00b0)",
+          "confirmation_enabled": false,
+          "confirmed": true
+        },
+        "is_confirmed": true,
+        "confirmation_type": "PERSISTENCE_CONFIRMED",
+        "conviction_rating": "MODERATE CONVICTION - CONFIRMED",
+        "quality_badge": "CONFIRMED (3d Streak)"
+      },
+      "key_drivers": [
+        "Hospital bed expansion & ARPOB elevation",
+        "Diagnostic testing volume normalisation",
+        "Medical tourism demand resurgence"
+      ],
+      "institutional_flow": "Steady DII Inflow",
+      "top_performers": [
+        "TORNTPHARM",
+        "LAURUSLABS",
+        "ABBOTINDIA"
+      ],
+      "weak_performers": [
+        "ZYDUSLIFE",
+        "IPCALAB"
+      ]
+    },
+    {
+      "id": "PHARMA",
+      "symbol": "NIFTY PHARMA",
+      "name": "Nifty Pharma Index",
+      "category": "Healthcare / Defensive",
+      "quadrant": "LEADING",
+      "current_rs_ratio": 101.31,
+      "current_rs_momentum": 101.49,
+      "change_rs_ratio_1w": 1.61,
+      "change_rs_momentum_1w": 1.37,
+      "rotation_heading": 40,
+      "rotation_velocity": "Very High",
+      "weeks_in_quadrant": 1,
+      "consecutive_sessions_in_quadrant": 2,
+      "market_cap_weight_pct": 4.26,
+      "pe_ratio": 46.8,
+      "proximity_52w_high_pct": 100.0,
+      "advance_decline_ratio": "21:18",
+      "breadth": {
+        "pct_above_20dma": 80.0,
+        "pct_above_50dma": 80.0,
+        "pct_above_200dma": 80.0,
+        "participation_score": 66.9
+      },
+      "performance": {
+        "1D": 0.45,
+        "1W": 3.16,
+        "1M": 12.87,
+        "3M": 10.45,
+        "6M": 17.97,
+        "1Y": 28.0
+      },
+      "alpha": {
+        "1D": 0.2,
+        "1W": 1.23,
+        "1M": 1.4,
+        "3M": 8.01,
+        "6M": 12.78,
+        "1Y": 27.25
+      },
+      "composite_score": 63.3,
+      "scores": {
+        "composite_score": 63.3,
+        "rs_component_score": 63.1,
+        "momentum_component_score": 64.9,
+        "breadth_component_score": 66.9,
+        "performance_consistency_score": 55.2
+      },
+      "transition": {
+        "has_transitioned": true,
+        "previous_quadrant": "IMPROVING",
+        "transition_signal": "IMPROVING_TO_LEADING",
+        "transition_description": "Active quadrant rotation from IMPROVING to LEADING"
+      },
+      "historical_trail": [
+        {
+          "week": "T-4",
+          "date": "2026-10-27",
+          "rs_ratio": 101.91,
+          "rs_momentum": 101.4
+        },
+        {
+          "week": "T-3",
+          "date": "2026-11-03",
+          "rs_ratio": 100.09,
+          "rs_momentum": 99.03
+        },
+        {
+          "week": "T-2",
+          "date": "2026-11-11",
+          "rs_ratio": 100.32,
+          "rs_momentum": 99.99
+        },
+        {
+          "week": "T-1",
+          "date": "2026-11-18",
+          "rs_ratio": 99.7,
+          "rs_momentum": 100.12
+        },
+        {
+          "week": "T-0",
+          "date": "2026-11-26",
+          "rs_ratio": 101.31,
           "rs_momentum": 101.49
         }
       ],
       "signal_evaluation": {
-        "symbol": "NIFTY FIN SERVICE",
+        "symbol": "NIFTY PHARMA",
         "raw_quadrant": "LEADING",
+        "consecutive_sessions": 2,
+        "persistence_threshold": 2,
+        "persistence_met": true,
+        "heading": {
+          "angle": 40.0,
+          "is_positive": true,
+          "direction_label": "North-East (Accelerating Alpha & Momentum)",
+          "confirmation_enabled": false,
+          "confirmed": true
+        },
+        "is_confirmed": true,
+        "confirmation_type": "PERSISTENCE_CONFIRMED",
+        "conviction_rating": "HIGH CONVICTION - CONFIRMED",
+        "quality_badge": "CONFIRMED (2d Streak + Positive Vector)"
+      },
+      "key_drivers": [
+        "US generic pricing stabilization",
+        "Domestic formulation volume consistency",
+        "Biosimilar commercialization"
+      ],
+      "institutional_flow": "Defensive Sector Rotation",
+      "top_performers": [
+        "RUBICON",
+        "WOCKPHARMA",
+        "COHANCE"
+      ],
+      "weak_performers": [
+        "CAPLIPOINT",
+        "CONCORDBIO"
+      ]
+    },
+    {
+      "id": "FIN_SERVICE",
+      "symbol": "NIFTY FIN SERVICE",
+      "name": "Nifty Financial Services Index",
+      "category": "Financials",
+      "quadrant": "WEAKENING",
+      "current_rs_ratio": 101.38,
+      "current_rs_momentum": 99.99,
+      "change_rs_ratio_1w": 0.25,
+      "change_rs_momentum_1w": -0.17,
+      "rotation_heading": 326,
+      "rotation_velocity": "Moderate",
+      "weeks_in_quadrant": 1,
+      "consecutive_sessions_in_quadrant": 1,
+      "market_cap_weight_pct": 15.88,
+      "pe_ratio": 16.9,
+      "proximity_52w_high_pct": 99.5,
+      "advance_decline_ratio": "40:41",
+      "breadth": {
+        "pct_above_20dma": 74.1,
+        "pct_above_50dma": 61.7,
+        "pct_above_200dma": 49.4,
+        "participation_score": 61.7
+      },
+      "performance": {
+        "1D": -0.16,
+        "1W": 2.6,
+        "1M": 17.44,
+        "3M": 9.79,
+        "6M": 10.75,
+        "1Y": 3.89
+      },
+      "alpha": {
+        "1D": -0.41,
+        "1W": 0.67,
+        "1M": 5.97,
+        "3M": 7.35,
+        "6M": 5.56,
+        "1Y": 3.14
+      },
+      "composite_score": 59.3,
+      "scores": {
+        "composite_score": 59.3,
+        "rs_component_score": 63.8,
+        "momentum_component_score": 49.9,
+        "breadth_component_score": 61.7,
+        "performance_consistency_score": 60.6
+      },
+      "transition": {
+        "has_transitioned": true,
+        "previous_quadrant": "LEADING",
+        "transition_signal": "LEADING_TO_WEAKENING",
+        "transition_description": "Active quadrant rotation from LEADING to WEAKENING"
+      },
+      "historical_trail": [
+        {
+          "week": "T-4",
+          "date": "2026-10-27",
+          "rs_ratio": 97.72,
+          "rs_momentum": 97.67
+        },
+        {
+          "week": "T-3",
+          "date": "2026-11-03",
+          "rs_ratio": 99.77,
+          "rs_momentum": 100.31
+        },
+        {
+          "week": "T-2",
+          "date": "2026-11-11",
+          "rs_ratio": 101.26,
+          "rs_momentum": 100.43
+        },
+        {
+          "week": "T-1",
+          "date": "2026-11-18",
+          "rs_ratio": 101.13,
+          "rs_momentum": 100.16
+        },
+        {
+          "week": "T-0",
+          "date": "2026-11-26",
+          "rs_ratio": 101.38,
+          "rs_momentum": 99.99
+        }
+      ],
+      "signal_evaluation": {
+        "symbol": "NIFTY FIN SERVICE",
+        "raw_quadrant": "WEAKENING",
         "consecutive_sessions": 1,
         "persistence_threshold": 2,
         "persistence_met": false,
         "heading": {
-          "angle": 59.0,
-          "is_positive": true,
-          "direction_label": "North-East (Accelerating Alpha & Momentum)",
+          "angle": 326.0,
+          "is_positive": false,
+          "direction_label": "Rotational (326.0\u00b0)",
           "confirmation_enabled": false,
           "confirmed": true
         },
@@ -499,60 +619,60 @@
       "top_performers": [
         "J&KBANK",
         "POLICYBZR",
-        "CUB"
+        "KFINTECH"
       ],
       "weak_performers": [
-        "PAYTM",
-        "MANAPPURAM"
+        "HOMEFIRST",
+        "IIFL"
       ]
     },
     {
-      "id": "PVT_BANK",
-      "symbol": "NIFTY PVT BANK",
-      "name": "Nifty Private Bank Index",
-      "category": "Financials / Private",
+      "id": "FMCG",
+      "symbol": "NIFTY FMCG",
+      "name": "Nifty FMCG Index",
+      "category": "Consumer Staples / Defensive",
       "quadrant": "LEADING",
-      "current_rs_ratio": 101.47,
-      "current_rs_momentum": 100.44,
-      "change_rs_ratio_1w": 0.2,
-      "change_rs_momentum_1w": 0.02,
-      "rotation_heading": 6,
-      "rotation_velocity": "Low",
-      "weeks_in_quadrant": 1,
-      "consecutive_sessions_in_quadrant": 1,
-      "market_cap_weight_pct": 8.14,
-      "pe_ratio": 17.96,
-      "proximity_52w_high_pct": 98.9,
-      "advance_decline_ratio": "6:4",
+      "current_rs_ratio": 101.04,
+      "current_rs_momentum": 100.16,
+      "change_rs_ratio_1w": -0.01,
+      "change_rs_momentum_1w": -0.99,
+      "rotation_heading": 269,
+      "rotation_velocity": "High",
+      "weeks_in_quadrant": 2,
+      "consecutive_sessions_in_quadrant": 8,
+      "market_cap_weight_pct": 2.9,
+      "pe_ratio": 34.88,
+      "proximity_52w_high_pct": 99.1,
+      "advance_decline_ratio": "10:18",
       "breadth": {
-        "pct_above_20dma": 100.0,
-        "pct_above_50dma": 90.0,
-        "pct_above_200dma": 80.0,
-        "participation_score": 80.0
+        "pct_above_20dma": 78.6,
+        "pct_above_50dma": 75.0,
+        "pct_above_200dma": 46.4,
+        "participation_score": 57.2
       },
       "performance": {
-        "1D": 2.21,
-        "1W": 2.71,
-        "1M": 17.56,
-        "3M": 13.58,
-        "6M": 16.38,
-        "1Y": 10.32
+        "1D": -0.94,
+        "1W": 4.42,
+        "1M": 16.06,
+        "3M": 4.51,
+        "6M": -1.1,
+        "1Y": -10.31
       },
       "alpha": {
-        "1D": 1.04,
-        "1W": 1.86,
-        "1M": 5.44,
-        "3M": 11.48,
-        "6M": 11.6,
-        "1Y": 9.48
+        "1D": -1.19,
+        "1W": 2.49,
+        "1M": 4.59,
+        "3M": 2.07,
+        "6M": -6.29,
+        "1Y": -11.06
       },
-      "composite_score": 65.7,
+      "composite_score": 57.8,
       "scores": {
-        "composite_score": 65.7,
-        "rs_component_score": 64.7,
-        "momentum_component_score": 54.4,
-        "breadth_component_score": 80.0,
-        "performance_consistency_score": 62.8
+        "composite_score": 57.8,
+        "rs_component_score": 60.4,
+        "momentum_component_score": 51.6,
+        "breadth_component_score": 57.2,
+        "performance_consistency_score": 63.1
       },
       "transition": {
         "has_transitioned": false,
@@ -563,45 +683,165 @@
       "historical_trail": [
         {
           "week": "T-4",
-          "date": "2026-10-26",
-          "rs_ratio": 100.96,
-          "rs_momentum": 100.11
+          "date": "2026-10-27",
+          "rs_ratio": 99.16,
+          "rs_momentum": 99.86
         },
         {
           "week": "T-3",
-          "date": "2026-11-02",
-          "rs_ratio": 97.62,
-          "rs_momentum": 97.9
+          "date": "2026-11-03",
+          "rs_ratio": 102.24,
+          "rs_momentum": 102.66
         },
         {
           "week": "T-2",
-          "date": "2026-11-09",
-          "rs_ratio": 101.6,
-          "rs_momentum": 101.02
+          "date": "2026-11-11",
+          "rs_ratio": 99.3,
+          "rs_momentum": 99.63
         },
         {
           "week": "T-1",
-          "date": "2026-11-17",
-          "rs_ratio": 101.27,
-          "rs_momentum": 100.42
+          "date": "2026-11-18",
+          "rs_ratio": 101.05,
+          "rs_momentum": 101.15
         },
         {
           "week": "T-0",
-          "date": "2026-11-25",
-          "rs_ratio": 101.47,
-          "rs_momentum": 100.44
+          "date": "2026-11-26",
+          "rs_ratio": 101.04,
+          "rs_momentum": 100.16
+        }
+      ],
+      "signal_evaluation": {
+        "symbol": "NIFTY FMCG",
+        "raw_quadrant": "LEADING",
+        "consecutive_sessions": 8,
+        "persistence_threshold": 2,
+        "persistence_met": true,
+        "heading": {
+          "angle": 269.0,
+          "is_positive": false,
+          "direction_label": "Rotational (269.0\u00b0)",
+          "confirmation_enabled": false,
+          "confirmed": true
+        },
+        "is_confirmed": true,
+        "confirmation_type": "PERSISTENCE_CONFIRMED",
+        "conviction_rating": "MODERATE CONVICTION - CONFIRMED",
+        "quality_badge": "CONFIRMED (8d Streak)"
+      },
+      "key_drivers": [
+        "Rural consumption demand revival",
+        "Stable agricultural commodity inputs",
+        "Premium product portfolio expansion"
+      ],
+      "institutional_flow": "Defensive Inflow",
+      "top_performers": [
+        "DOMS",
+        "BRITANNIA",
+        "DABUR"
+      ],
+      "weak_performers": [
+        "CCL",
+        "AWL"
+      ]
+    },
+    {
+      "id": "PVT_BANK",
+      "symbol": "NIFTY PVT BANK",
+      "name": "Nifty Private Bank Index",
+      "category": "Financials / Private",
+      "quadrant": "WEAKENING",
+      "current_rs_ratio": 100.96,
+      "current_rs_momentum": 99.36,
+      "change_rs_ratio_1w": -0.23,
+      "change_rs_momentum_1w": -0.95,
+      "rotation_heading": 256,
+      "rotation_velocity": "High",
+      "weeks_in_quadrant": 1,
+      "consecutive_sessions_in_quadrant": 1,
+      "market_cap_weight_pct": 10.27,
+      "pe_ratio": 17.93,
+      "proximity_52w_high_pct": 98.8,
+      "advance_decline_ratio": "3:7",
+      "breadth": {
+        "pct_above_20dma": 100.0,
+        "pct_above_50dma": 90.0,
+        "pct_above_200dma": 80.0,
+        "participation_score": 65.0
+      },
+      "performance": {
+        "1D": -0.17,
+        "1W": 3.17,
+        "1M": 16.62,
+        "3M": 13.75,
+        "6M": 16.9,
+        "1Y": 9.78
+      },
+      "alpha": {
+        "1D": -0.42,
+        "1W": 1.24,
+        "1M": 5.15,
+        "3M": 11.31,
+        "6M": 11.71,
+        "1Y": 9.03
+      },
+      "composite_score": 57.1,
+      "scores": {
+        "composite_score": 57.1,
+        "rs_component_score": 59.6,
+        "momentum_component_score": 43.6,
+        "breadth_component_score": 65.0,
+        "performance_consistency_score": 60.8
+      },
+      "transition": {
+        "has_transitioned": true,
+        "previous_quadrant": "LEADING",
+        "transition_signal": "LEADING_TO_WEAKENING",
+        "transition_description": "Active quadrant rotation from LEADING to WEAKENING"
+      },
+      "historical_trail": [
+        {
+          "week": "T-4",
+          "date": "2026-10-27",
+          "rs_ratio": 98.21,
+          "rs_momentum": 97.38
+        },
+        {
+          "week": "T-3",
+          "date": "2026-11-03",
+          "rs_ratio": 99.17,
+          "rs_momentum": 99.56
+        },
+        {
+          "week": "T-2",
+          "date": "2026-11-11",
+          "rs_ratio": 101.34,
+          "rs_momentum": 100.67
+        },
+        {
+          "week": "T-1",
+          "date": "2026-11-18",
+          "rs_ratio": 101.19,
+          "rs_momentum": 100.31
+        },
+        {
+          "week": "T-0",
+          "date": "2026-11-26",
+          "rs_ratio": 100.96,
+          "rs_momentum": 99.36
         }
       ],
       "signal_evaluation": {
         "symbol": "NIFTY PVT BANK",
-        "raw_quadrant": "LEADING",
+        "raw_quadrant": "WEAKENING",
         "consecutive_sessions": 1,
         "persistence_threshold": 2,
         "persistence_met": false,
         "heading": {
-          "angle": 6.0,
-          "is_positive": true,
-          "direction_label": "North-East (Accelerating Alpha & Momentum)",
+          "angle": 256.0,
+          "is_positive": false,
+          "direction_label": "Rotational (256.0\u00b0)",
           "confirmation_enabled": false,
           "confirmed": true
         },
@@ -617,9 +857,9 @@
       ],
       "institutional_flow": "Selective Institutional Accumulation",
       "top_performers": [
-        "IDFCFIRSTB",
         "HDFCBANK",
-        "INDUSINDBK"
+        "INDUSINDBK",
+        "IDFCFIRSTB"
       ],
       "weak_performers": [
         "BANDHANBNK",
@@ -632,47 +872,47 @@
       "name": "Nifty Bank Index",
       "category": "Financials",
       "quadrant": "WEAKENING",
-      "current_rs_ratio": 101.16,
-      "current_rs_momentum": 99.9,
-      "change_rs_ratio_1w": -0.18,
-      "change_rs_momentum_1w": -0.48,
+      "current_rs_ratio": 100.69,
+      "current_rs_momentum": 98.74,
+      "change_rs_ratio_1w": -0.62,
+      "change_rs_momentum_1w": -1.61,
       "rotation_heading": 249,
-      "rotation_velocity": "Moderate",
+      "rotation_velocity": "Very High",
       "weeks_in_quadrant": 1,
-      "consecutive_sessions_in_quadrant": 2,
-      "market_cap_weight_pct": 10.26,
-      "pe_ratio": 14.08,
-      "proximity_52w_high_pct": 98.6,
-      "advance_decline_ratio": "10:4",
+      "consecutive_sessions_in_quadrant": 3,
+      "market_cap_weight_pct": 11.88,
+      "pe_ratio": 14.04,
+      "proximity_52w_high_pct": 98.3,
+      "advance_decline_ratio": "3:11",
       "breadth": {
         "pct_above_20dma": 100.0,
         "pct_above_50dma": 92.9,
-        "pct_above_200dma": 92.9,
-        "participation_score": 85.7
+        "pct_above_200dma": 85.7,
+        "participation_score": 60.7
       },
       "performance": {
-        "1D": 1.79,
-        "1W": 2.3,
-        "1M": 17.34,
-        "3M": 10.29,
-        "6M": 15.21,
-        "1Y": 8.16
+        "1D": -0.26,
+        "1W": 2.41,
+        "1M": 16.86,
+        "3M": 10.45,
+        "6M": 15.32,
+        "1Y": 7.29
       },
       "alpha": {
-        "1D": 0.62,
-        "1W": 1.45,
-        "1M": 5.22,
-        "3M": 8.19,
-        "6M": 10.43,
-        "1Y": 7.32
+        "1D": -0.51,
+        "1W": 0.48,
+        "1M": 5.39,
+        "3M": 8.01,
+        "6M": 10.13,
+        "1Y": 6.54
       },
-      "composite_score": 64.5,
+      "composite_score": 53.3,
       "scores": {
-        "composite_score": 64.5,
-        "rs_component_score": 61.6,
-        "momentum_component_score": 49.0,
-        "breadth_component_score": 85.7,
-        "performance_consistency_score": 61.5
+        "composite_score": 53.3,
+        "rs_component_score": 56.9,
+        "momentum_component_score": 37.4,
+        "breadth_component_score": 60.7,
+        "performance_consistency_score": 59.3
       },
       "transition": {
         "has_transitioned": true,
@@ -683,39 +923,39 @@
       "historical_trail": [
         {
           "week": "T-4",
-          "date": "2026-10-26",
-          "rs_ratio": 99.88,
-          "rs_momentum": 98.29
+          "date": "2026-10-27",
+          "rs_ratio": 97.53,
+          "rs_momentum": 97.47
         },
         {
           "week": "T-3",
-          "date": "2026-11-02",
-          "rs_ratio": 98.32,
-          "rs_momentum": 99.01
+          "date": "2026-11-03",
+          "rs_ratio": 98.52,
+          "rs_momentum": 99.33
         },
         {
           "week": "T-2",
-          "date": "2026-11-09",
-          "rs_ratio": 101.8,
-          "rs_momentum": 101.45
+          "date": "2026-11-11",
+          "rs_ratio": 101.84,
+          "rs_momentum": 101.21
         },
         {
           "week": "T-1",
-          "date": "2026-11-17",
-          "rs_ratio": 101.34,
-          "rs_momentum": 100.38
+          "date": "2026-11-18",
+          "rs_ratio": 101.31,
+          "rs_momentum": 100.35
         },
         {
           "week": "T-0",
-          "date": "2026-11-25",
-          "rs_ratio": 101.16,
-          "rs_momentum": 99.9
+          "date": "2026-11-26",
+          "rs_ratio": 100.69,
+          "rs_momentum": 98.74
         }
       ],
       "signal_evaluation": {
         "symbol": "NIFTY BANK",
         "raw_quadrant": "WEAKENING",
-        "consecutive_sessions": 2,
+        "consecutive_sessions": 3,
         "persistence_threshold": 2,
         "persistence_met": true,
         "heading": {
@@ -728,7 +968,7 @@
         "is_confirmed": true,
         "confirmation_type": "PERSISTENCE_CONFIRMED",
         "conviction_rating": "MODERATE CONVICTION - CONFIRMED",
-        "quality_badge": "CONFIRMED (2d Streak)"
+        "quality_badge": "CONFIRMED (3d Streak)"
       },
       "key_drivers": [
         "Robust credit growth across retail & SME",
@@ -737,13 +977,13 @@
       ],
       "institutional_flow": "DII & FII Dual Accumulation",
       "top_performers": [
-        "IDFCFIRSTB",
         "HDFCBANK",
-        "INDUSINDBK"
+        "INDUSINDBK",
+        "IDFCFIRSTB"
       ],
       "weak_performers": [
-        "PNB",
-        "FEDERALBNK"
+        "CANBK",
+        "PNB"
       ]
     },
     {
@@ -751,217 +991,97 @@
       "symbol": "NIFTY AUTO",
       "name": "Nifty Auto Index",
       "category": "Consumer Discretionary / Cyclical",
-      "quadrant": "LEADING",
-      "current_rs_ratio": 101.01,
-      "current_rs_momentum": 100.32,
-      "change_rs_ratio_1w": 1.76,
-      "change_rs_momentum_1w": 1.28,
-      "rotation_heading": 36,
+      "quadrant": "WEAKENING",
+      "current_rs_ratio": 100.15,
+      "current_rs_momentum": 99.48,
+      "change_rs_ratio_1w": 1.21,
+      "change_rs_momentum_1w": 0.45,
+      "rotation_heading": 20,
       "rotation_velocity": "Very High",
       "weeks_in_quadrant": 1,
-      "consecutive_sessions_in_quadrant": 4,
-      "market_cap_weight_pct": 4.63,
-      "pe_ratio": 31.46,
-      "proximity_52w_high_pct": 100.0,
-      "advance_decline_ratio": "25:16",
+      "consecutive_sessions_in_quadrant": 1,
+      "market_cap_weight_pct": 3.76,
+      "pe_ratio": 31.25,
+      "proximity_52w_high_pct": 99.3,
+      "advance_decline_ratio": "13:28",
       "breadth": {
-        "pct_above_20dma": 75.6,
+        "pct_above_20dma": 73.2,
         "pct_above_50dma": 70.7,
         "pct_above_200dma": 65.9,
-        "participation_score": 68.3
+        "participation_score": 52.5
       },
       "performance": {
-        "1D": 1.16,
-        "1W": 3.79,
-        "1M": 15.92,
-        "3M": -1.04,
-        "6M": 8.91,
-        "1Y": 5.31
+        "1D": -0.69,
+        "1W": 4.48,
+        "1M": 14.63,
+        "3M": -1.64,
+        "6M": 8.09,
+        "1Y": 4.33
       },
       "alpha": {
-        "1D": -0.01,
-        "1W": 2.94,
-        "1M": 3.8,
-        "3M": -3.14,
-        "6M": 4.13,
-        "1Y": 4.47
+        "1D": -0.94,
+        "1W": 2.55,
+        "1M": 3.16,
+        "3M": -4.08,
+        "6M": 2.9,
+        "1Y": 3.58
       },
-      "composite_score": 60.9,
+      "composite_score": 51.5,
       "scores": {
-        "composite_score": 60.9,
-        "rs_component_score": 60.1,
-        "momentum_component_score": 53.2,
-        "breadth_component_score": 68.3,
-        "performance_consistency_score": 63.0
+        "composite_score": 51.5,
+        "rs_component_score": 51.5,
+        "momentum_component_score": 44.8,
+        "breadth_component_score": 52.5,
+        "performance_consistency_score": 61.1
       },
       "transition": {
         "has_transitioned": true,
         "previous_quadrant": "LAGGING",
-        "transition_signal": "LAGGING_TO_LEADING",
-        "transition_description": "Active quadrant rotation from LAGGING to LEADING"
+        "transition_signal": "LAGGING_TO_WEAKENING",
+        "transition_description": "Active quadrant rotation from LAGGING to WEAKENING"
       },
       "historical_trail": [
         {
           "week": "T-4",
-          "date": "2026-10-26",
-          "rs_ratio": 100.04,
-          "rs_momentum": 100.22
+          "date": "2026-10-27",
+          "rs_ratio": 101.59,
+          "rs_momentum": 102.37
         },
         {
           "week": "T-3",
-          "date": "2026-11-02",
-          "rs_ratio": 99.47,
-          "rs_momentum": 98.89
+          "date": "2026-11-03",
+          "rs_ratio": 100.17,
+          "rs_momentum": 99.84
         },
         {
           "week": "T-2",
-          "date": "2026-11-09",
-          "rs_ratio": 101.25,
-          "rs_momentum": 100.4
+          "date": "2026-11-11",
+          "rs_ratio": 101.89,
+          "rs_momentum": 100.92
         },
         {
           "week": "T-1",
-          "date": "2026-11-17",
-          "rs_ratio": 99.25,
-          "rs_momentum": 99.04
+          "date": "2026-11-18",
+          "rs_ratio": 98.94,
+          "rs_momentum": 99.03
         },
         {
           "week": "T-0",
-          "date": "2026-11-25",
-          "rs_ratio": 101.01,
-          "rs_momentum": 100.32
+          "date": "2026-11-26",
+          "rs_ratio": 100.15,
+          "rs_momentum": 99.48
         }
       ],
       "signal_evaluation": {
         "symbol": "NIFTY AUTO",
-        "raw_quadrant": "LEADING",
-        "consecutive_sessions": 4,
-        "persistence_threshold": 2,
-        "persistence_met": true,
-        "heading": {
-          "angle": 36.0,
-          "is_positive": true,
-          "direction_label": "North-East (Accelerating Alpha & Momentum)",
-          "confirmation_enabled": false,
-          "confirmed": true
-        },
-        "is_confirmed": true,
-        "confirmation_type": "PERSISTENCE_CONFIRMED",
-        "conviction_rating": "HIGH CONVICTION - CONFIRMED",
-        "quality_badge": "CONFIRMED (4d Streak + Positive Vector)"
-      },
-      "key_drivers": [
-        "EV penetration acceleration",
-        "Strong rural volume recovery",
-        "Margin expansion via benign raw material prices"
-      ],
-      "institutional_flow": "Heavy FII Inflow",
-      "top_performers": [
-        "MARUTI",
-        "HEROMOTOCO",
-        "EICHERMOT"
-      ],
-      "weak_performers": [
-        "RKFORGE",
-        "OLAELEC"
-      ]
-    },
-    {
-      "id": "REALTY",
-      "symbol": "NIFTY REALTY",
-      "name": "Nifty Realty Index",
-      "category": "Real Estate / High Beta",
-      "quadrant": "WEAKENING",
-      "current_rs_ratio": 100.86,
-      "current_rs_momentum": 99.63,
-      "change_rs_ratio_1w": -0.49,
-      "change_rs_momentum_1w": -1.06,
-      "rotation_heading": 245,
-      "rotation_velocity": "High",
-      "weeks_in_quadrant": 1,
-      "consecutive_sessions_in_quadrant": 1,
-      "market_cap_weight_pct": 1.07,
-      "pe_ratio": 39.57,
-      "proximity_52w_high_pct": 100.0,
-      "advance_decline_ratio": "6:7",
-      "breadth": {
-        "pct_above_20dma": 84.6,
-        "pct_above_50dma": 76.9,
-        "pct_above_200dma": 61.5,
-        "participation_score": 65.4
-      },
-      "performance": {
-        "1D": 0.02,
-        "1W": 1.67,
-        "1M": 20.1,
-        "3M": 3.33,
-        "6M": 19.84,
-        "1Y": 1.59
-      },
-      "alpha": {
-        "1D": -1.15,
-        "1W": 0.82,
-        "1M": 7.98,
-        "3M": 1.23,
-        "6M": 15.06,
-        "1Y": 0.75
-      },
-      "composite_score": 58.0,
-      "scores": {
-        "composite_score": 58.0,
-        "rs_component_score": 58.6,
-        "momentum_component_score": 46.3,
-        "breadth_component_score": 65.4,
-        "performance_consistency_score": 64.0
-      },
-      "transition": {
-        "has_transitioned": true,
-        "previous_quadrant": "LEADING",
-        "transition_signal": "LEADING_TO_WEAKENING",
-        "transition_description": "Active quadrant rotation from LEADING to WEAKENING"
-      },
-      "historical_trail": [
-        {
-          "week": "T-4",
-          "date": "2026-10-26",
-          "rs_ratio": 98.28,
-          "rs_momentum": 99.06
-        },
-        {
-          "week": "T-3",
-          "date": "2026-11-02",
-          "rs_ratio": 99.68,
-          "rs_momentum": 99.97
-        },
-        {
-          "week": "T-2",
-          "date": "2026-11-09",
-          "rs_ratio": 100.75,
-          "rs_momentum": 99.99
-        },
-        {
-          "week": "T-1",
-          "date": "2026-11-17",
-          "rs_ratio": 101.35,
-          "rs_momentum": 100.69
-        },
-        {
-          "week": "T-0",
-          "date": "2026-11-25",
-          "rs_ratio": 100.86,
-          "rs_momentum": 99.63
-        }
-      ],
-      "signal_evaluation": {
-        "symbol": "NIFTY REALTY",
         "raw_quadrant": "WEAKENING",
         "consecutive_sessions": 1,
         "persistence_threshold": 2,
         "persistence_met": false,
         "heading": {
-          "angle": 245.0,
-          "is_positive": false,
-          "direction_label": "Rotational (245.0\u00b0)",
+          "angle": 20.0,
+          "is_positive": true,
+          "direction_label": "North-East (Accelerating Alpha & Momentum)",
           "confirmation_enabled": false,
           "confirmed": true
         },
@@ -971,19 +1091,19 @@
         "quality_badge": "EARLY SIGNAL (1d - Pending Streak Confirmation)"
       },
       "key_drivers": [
-        "Multi-year residential sales supercycle",
-        "Inventory absorption at record highs",
-        "Commercial office leasing absorption"
+        "EV penetration acceleration",
+        "Strong rural volume recovery",
+        "Margin expansion via benign raw material prices"
       ],
-      "institutional_flow": "High Beta Capital Allocation",
+      "institutional_flow": "Heavy FII Inflow",
       "top_performers": [
-        "BRIGADE",
-        "DLF",
-        "OBEROIRLTY"
+        "HEROMOTOCO",
+        "MARUTI",
+        "ENDURANCE"
       ],
       "weak_performers": [
-        "ANANTRAJ",
-        "SOBHA"
+        "ARE&M",
+        "ASHOKLEY"
       ]
     },
     {
@@ -991,104 +1111,104 @@
       "symbol": "NIFTY PSU BANK",
       "name": "Nifty PSU Bank Index",
       "category": "Financials / Sovereign",
-      "quadrant": "WEAKENING",
-      "current_rs_ratio": 100.34,
-      "current_rs_momentum": 98.54,
-      "change_rs_ratio_1w": -1.0,
-      "change_rs_momentum_1w": -1.8,
-      "rotation_heading": 241,
+      "quadrant": "LAGGING",
+      "current_rs_ratio": 99.8,
+      "current_rs_momentum": 98.14,
+      "change_rs_ratio_1w": -1.64,
+      "change_rs_momentum_1w": -2.27,
+      "rotation_heading": 234,
       "rotation_velocity": "Very High",
       "weeks_in_quadrant": 1,
-      "consecutive_sessions_in_quadrant": 2,
-      "market_cap_weight_pct": 2.49,
-      "pe_ratio": 8.22,
-      "proximity_52w_high_pct": 97.1,
-      "advance_decline_ratio": "5:6",
+      "consecutive_sessions_in_quadrant": 1,
+      "market_cap_weight_pct": 2.04,
+      "pe_ratio": 8.17,
+      "proximity_52w_high_pct": 96.4,
+      "advance_decline_ratio": "2:9",
       "breadth": {
         "pct_above_20dma": 100.0,
-        "pct_above_50dma": 100.0,
+        "pct_above_50dma": 90.9,
         "pct_above_200dma": 81.8,
-        "participation_score": 72.7
+        "participation_score": 59.1
       },
       "performance": {
-        "1D": 0.37,
-        "1W": 1.14,
-        "1M": 18.89,
-        "3M": 11.31,
-        "6M": 16.47,
-        "1Y": 13.18
+        "1D": -0.68,
+        "1W": -0.14,
+        "1M": 17.74,
+        "3M": 11.59,
+        "6M": 16.22,
+        "1Y": 11.12
       },
       "alpha": {
-        "1D": -0.8,
-        "1W": 0.29,
-        "1M": 6.77,
-        "3M": 9.21,
-        "6M": 11.69,
-        "1Y": 12.34
+        "1D": -0.93,
+        "1W": -2.07,
+        "1M": 6.27,
+        "3M": 9.15,
+        "6M": 11.03,
+        "1Y": 10.37
       },
-      "composite_score": 54.9,
+      "composite_score": 47.6,
       "scores": {
-        "composite_score": 54.9,
-        "rs_component_score": 53.4,
-        "momentum_component_score": 35.4,
-        "breadth_component_score": 72.7,
-        "performance_consistency_score": 60.9
+        "composite_score": 47.6,
+        "rs_component_score": 48.0,
+        "momentum_component_score": 31.4,
+        "breadth_component_score": 59.1,
+        "performance_consistency_score": 54.2
       },
       "transition": {
         "has_transitioned": true,
         "previous_quadrant": "LEADING",
-        "transition_signal": "LEADING_TO_WEAKENING",
-        "transition_description": "Active quadrant rotation from LEADING to WEAKENING"
+        "transition_signal": "LEADING_TO_LAGGING",
+        "transition_description": "Active quadrant rotation from LEADING to LAGGING"
       },
       "historical_trail": [
         {
           "week": "T-4",
-          "date": "2026-10-26",
-          "rs_ratio": 100.32,
-          "rs_momentum": 99.48
+          "date": "2026-10-27",
+          "rs_ratio": 100.16,
+          "rs_momentum": 99.44
         },
         {
           "week": "T-3",
-          "date": "2026-11-02",
-          "rs_ratio": 100.3,
-          "rs_momentum": 99.61
+          "date": "2026-11-03",
+          "rs_ratio": 97.71,
+          "rs_momentum": 97.55
         },
         {
           "week": "T-2",
-          "date": "2026-11-09",
-          "rs_ratio": 101.48,
-          "rs_momentum": 101.68
+          "date": "2026-11-11",
+          "rs_ratio": 102.11,
+          "rs_momentum": 101.63
         },
         {
           "week": "T-1",
-          "date": "2026-11-17",
-          "rs_ratio": 101.34,
-          "rs_momentum": 100.34
+          "date": "2026-11-18",
+          "rs_ratio": 101.44,
+          "rs_momentum": 100.41
         },
         {
           "week": "T-0",
-          "date": "2026-11-25",
-          "rs_ratio": 100.34,
-          "rs_momentum": 98.54
+          "date": "2026-11-26",
+          "rs_ratio": 99.8,
+          "rs_momentum": 98.14
         }
       ],
       "signal_evaluation": {
         "symbol": "NIFTY PSU BANK",
-        "raw_quadrant": "WEAKENING",
-        "consecutive_sessions": 2,
+        "raw_quadrant": "LAGGING",
+        "consecutive_sessions": 1,
         "persistence_threshold": 2,
-        "persistence_met": true,
+        "persistence_met": false,
         "heading": {
-          "angle": 241.0,
+          "angle": 234.0,
           "is_positive": false,
-          "direction_label": "Rotational (241.0\u00b0)",
+          "direction_label": "Rotational (234.0\u00b0)",
           "confirmation_enabled": false,
           "confirmed": true
         },
-        "is_confirmed": true,
-        "confirmation_type": "PERSISTENCE_CONFIRMED",
-        "conviction_rating": "MODERATE CONVICTION - CONFIRMED",
-        "quality_badge": "CONFIRMED (2d Streak)"
+        "is_confirmed": false,
+        "confirmation_type": "UNCONFIRMED_EARLY",
+        "conviction_rating": "EARLY PROVISIONAL",
+        "quality_badge": "EARLY SIGNAL (1d - Pending Streak Confirmation)"
       },
       "key_drivers": [
         "Strong treasury yields & balance sheet clean-up",
@@ -1097,109 +1217,349 @@
       ],
       "institutional_flow": "Heavy Institutional Re-Rating",
       "top_performers": [
-        "UNIONBANK",
-        "MAHABANK",
-        "SBIN"
+        "BANKINDIA",
+        "CENTRALBK",
+        "UNIONBANK"
       ],
       "weak_performers": [
         "PNB",
-        "IOB"
+        "MAHABANK"
       ]
     },
     {
-      "id": "IT",
-      "symbol": "NIFTY IT",
-      "name": "Nifty IT Index",
-      "category": "Technology / Exporters",
+      "id": "ENERGY",
+      "symbol": "NIFTY ENERGY",
+      "name": "Nifty Energy Index",
+      "category": "Energy / Utilities",
       "quadrant": "IMPROVING",
-      "current_rs_ratio": 99.97,
-      "current_rs_momentum": 101.6,
-      "change_rs_ratio_1w": 1.36,
-      "change_rs_momentum_1w": 3.0,
-      "rotation_heading": 66,
-      "rotation_velocity": "Very High",
+      "current_rs_ratio": 98.34,
+      "current_rs_momentum": 100.17,
+      "change_rs_ratio_1w": -0.83,
+      "change_rs_momentum_1w": -0.08,
+      "rotation_heading": 186,
+      "rotation_velocity": "High",
       "weeks_in_quadrant": 1,
-      "consecutive_sessions_in_quadrant": 2,
-      "market_cap_weight_pct": 4.11,
-      "pe_ratio": 19.57,
-      "proximity_52w_high_pct": 97.7,
-      "advance_decline_ratio": "14:11",
+      "consecutive_sessions_in_quadrant": 1,
+      "market_cap_weight_pct": 8.15,
+      "pe_ratio": 13.2,
+      "proximity_52w_high_pct": 98.2,
+      "advance_decline_ratio": "29:20",
       "breadth": {
-        "pct_above_20dma": 56.0,
-        "pct_above_50dma": 72.0,
-        "pct_above_200dma": 58.3,
-        "participation_score": 56.0
+        "pct_above_20dma": 40.8,
+        "pct_above_50dma": 42.9,
+        "pct_above_200dma": 34.8,
+        "participation_score": 50.0
       },
       "performance": {
-        "1D": 1.12,
-        "1W": 1.75,
-        "1M": 0.66,
-        "3M": 5.49,
-        "6M": 11.14,
-        "1Y": -10.47
+        "1D": 0.58,
+        "1W": -0.27,
+        "1M": 5.31,
+        "3M": -3.8,
+        "6M": -9.64,
+        "1Y": 2.07
       },
       "alpha": {
-        "1D": -0.05,
-        "1W": 0.9,
-        "1M": -11.46,
-        "3M": 3.39,
-        "6M": 6.36,
-        "1Y": -11.31
+        "1D": 0.33,
+        "1W": -2.2,
+        "1M": -6.16,
+        "3M": -6.24,
+        "6M": -14.83,
+        "1Y": 1.32
       },
-      "composite_score": 53.2,
+      "composite_score": 42.4,
       "scores": {
-        "composite_score": 53.2,
-        "rs_component_score": 49.7,
-        "momentum_component_score": 66.0,
-        "breadth_component_score": 56.0,
-        "performance_consistency_score": 35.1
+        "composite_score": 42.4,
+        "rs_component_score": 33.4,
+        "momentum_component_score": 51.7,
+        "breadth_component_score": 50.0,
+        "performance_consistency_score": 35.3
       },
       "transition": {
-        "has_transitioned": true,
-        "previous_quadrant": "LAGGING",
-        "transition_signal": "LAGGING_TO_IMPROVING",
-        "transition_description": "Active quadrant rotation from LAGGING to IMPROVING"
+        "has_transitioned": false,
+        "previous_quadrant": "IMPROVING",
+        "transition_signal": "IMPROVING_CONTINUATION",
+        "transition_description": "Sustained trend continuation inside IMPROVING quadrant"
       },
       "historical_trail": [
         {
           "week": "T-4",
-          "date": "2026-10-26",
-          "rs_ratio": 101.16,
-          "rs_momentum": 99.39
+          "date": "2026-10-27",
+          "rs_ratio": 99.51,
+          "rs_momentum": 100.71
         },
         {
           "week": "T-3",
-          "date": "2026-11-02",
-          "rs_ratio": 100.32,
-          "rs_momentum": 98.6
+          "date": "2026-11-03",
+          "rs_ratio": 99.2,
+          "rs_momentum": 100.04
         },
         {
           "week": "T-2",
-          "date": "2026-11-09",
-          "rs_ratio": 98.43,
-          "rs_momentum": 98.72
+          "date": "2026-11-11",
+          "rs_ratio": 98.94,
+          "rs_momentum": 100.08
         },
         {
           "week": "T-1",
-          "date": "2026-11-17",
-          "rs_ratio": 98.61,
-          "rs_momentum": 98.6
+          "date": "2026-11-18",
+          "rs_ratio": 99.17,
+          "rs_momentum": 100.25
         },
         {
           "week": "T-0",
-          "date": "2026-11-25",
-          "rs_ratio": 99.97,
-          "rs_momentum": 101.6
+          "date": "2026-11-26",
+          "rs_ratio": 98.34,
+          "rs_momentum": 100.17
         }
       ],
       "signal_evaluation": {
-        "symbol": "NIFTY IT",
+        "symbol": "NIFTY ENERGY",
         "raw_quadrant": "IMPROVING",
+        "consecutive_sessions": 1,
+        "persistence_threshold": 2,
+        "persistence_met": false,
+        "heading": {
+          "angle": 186.0,
+          "is_positive": false,
+          "direction_label": "Rotational (186.0\u00b0)",
+          "confirmation_enabled": false,
+          "confirmed": true
+        },
+        "is_confirmed": false,
+        "confirmation_type": "UNCONFIRMED_EARLY",
+        "conviction_rating": "EARLY PROVISIONAL",
+        "quality_badge": "EARLY SIGNAL (1d - Pending Streak Confirmation)"
+      },
+      "key_drivers": [
+        "Power demand grid peaking requirements",
+        "Renewable energy capacity additions",
+        "Refining margin stabilization"
+      ],
+      "institutional_flow": "Value & Yield Flow",
+      "top_performers": [
+        "BHARATCOAL",
+        "ENRIN",
+        "AEGISLOG"
+      ],
+      "weak_performers": [
+        "INOXWIND",
+        "ADANIENSOL"
+      ]
+    },
+    {
+      "id": "COMMODITIES",
+      "symbol": "NIFTY COMMODITIES",
+      "name": "Nifty Commodities Index",
+      "category": "Commodities / Basic Materials",
+      "quadrant": "LAGGING",
+      "current_rs_ratio": 98.28,
+      "current_rs_momentum": 99.33,
+      "change_rs_ratio_1w": -0.72,
+      "change_rs_momentum_1w": -0.36,
+      "rotation_heading": 207,
+      "rotation_velocity": "High",
+      "weeks_in_quadrant": 3,
+      "consecutive_sessions_in_quadrant": 13,
+      "market_cap_weight_pct": 8.93,
+      "pe_ratio": 13.67,
+      "proximity_52w_high_pct": 96.8,
+      "advance_decline_ratio": "39:14",
+      "breadth": {
+        "pct_above_20dma": 45.3,
+        "pct_above_50dma": 52.8,
+        "pct_above_200dma": 38.5,
+        "participation_score": 59.4
+      },
+      "performance": {
+        "1D": 0.62,
+        "1W": -0.92,
+        "1M": 5.56,
+        "3M": -4.25,
+        "6M": -9.29,
+        "1Y": 1.94
+      },
+      "alpha": {
+        "1D": 0.37,
+        "1W": -2.85,
+        "1M": -5.91,
+        "3M": -6.69,
+        "6M": -14.48,
+        "1Y": 1.19
+      },
+      "composite_score": 42.3,
+      "scores": {
+        "composite_score": 42.3,
+        "rs_component_score": 32.8,
+        "momentum_component_score": 43.3,
+        "breadth_component_score": 59.4,
+        "performance_consistency_score": 34.0
+      },
+      "transition": {
+        "has_transitioned": false,
+        "previous_quadrant": "LAGGING",
+        "transition_signal": "LAGGING_CONTINUATION",
+        "transition_description": "Sustained trend continuation inside LAGGING quadrant"
+      },
+      "historical_trail": [
+        {
+          "week": "T-4",
+          "date": "2026-10-27",
+          "rs_ratio": 100.94,
+          "rs_momentum": 101.32
+        },
+        {
+          "week": "T-3",
+          "date": "2026-11-03",
+          "rs_ratio": 101.2,
+          "rs_momentum": 100.78
+        },
+        {
+          "week": "T-2",
+          "date": "2026-11-11",
+          "rs_ratio": 99.04,
+          "rs_momentum": 99.12
+        },
+        {
+          "week": "T-1",
+          "date": "2026-11-18",
+          "rs_ratio": 99.0,
+          "rs_momentum": 99.69
+        },
+        {
+          "week": "T-0",
+          "date": "2026-11-26",
+          "rs_ratio": 98.28,
+          "rs_momentum": 99.33
+        }
+      ],
+      "signal_evaluation": {
+        "symbol": "NIFTY COMMODITIES",
+        "raw_quadrant": "LAGGING",
+        "consecutive_sessions": 13,
+        "persistence_threshold": 2,
+        "persistence_met": true,
+        "heading": {
+          "angle": 207.0,
+          "is_positive": false,
+          "direction_label": "Rotational (207.0\u00b0)",
+          "confirmation_enabled": false,
+          "confirmed": true
+        },
+        "is_confirmed": true,
+        "confirmation_type": "PERSISTENCE_CONFIRMED",
+        "conviction_rating": "MODERATE CONVICTION - CONFIRMED",
+        "quality_badge": "CONFIRMED (13d Streak)"
+      },
+      "key_drivers": [
+        "Basic chemical pricing stability",
+        "Cement demand acceleration",
+        "Global supply chain reallocation"
+      ],
+      "institutional_flow": "Moderate Cyclical Inflow",
+      "top_performers": [
+        "PRIVISCL",
+        "TATACHEM",
+        "PIDILITIND"
+      ],
+      "weak_performers": [
+        "ADANIENSOL",
+        "APLAPOLLO"
+      ]
+    },
+    {
+      "id": "CONSUMER_DURABLES",
+      "symbol": "NIFTY CONSUMER DURABLES",
+      "name": "Nifty Consumer Durables Index",
+      "category": "Consumer Discretionary",
+      "quadrant": "LAGGING",
+      "current_rs_ratio": 98.39,
+      "current_rs_momentum": 98.66,
+      "change_rs_ratio_1w": 1.11,
+      "change_rs_momentum_1w": 1.42,
+      "rotation_heading": 52,
+      "rotation_velocity": "Very High",
+      "weeks_in_quadrant": 1,
+      "consecutive_sessions_in_quadrant": 2,
+      "market_cap_weight_pct": 4.53,
+      "pe_ratio": 58.4,
+      "proximity_52w_high_pct": 98.5,
+      "advance_decline_ratio": "13:25",
+      "breadth": {
+        "pct_above_20dma": 68.4,
+        "pct_above_50dma": 65.8,
+        "pct_above_200dma": 57.9,
+        "participation_score": 51.3
+      },
+      "performance": {
+        "1D": -1.33,
+        "1W": 2.31,
+        "1M": 12.7,
+        "3M": -5.69,
+        "6M": 8.09,
+        "1Y": -1.13
+      },
+      "alpha": {
+        "1D": -1.58,
+        "1W": 0.38,
+        "1M": 1.23,
+        "3M": -8.13,
+        "6M": 2.9,
+        "1Y": -1.88
+      },
+      "composite_score": 41.8,
+      "scores": {
+        "composite_score": 41.8,
+        "rs_component_score": 33.9,
+        "momentum_component_score": 36.6,
+        "breadth_component_score": 51.3,
+        "performance_consistency_score": 52.8
+      },
+      "transition": {
+        "has_transitioned": false,
+        "previous_quadrant": "LAGGING",
+        "transition_signal": "LAGGING_CONTINUATION",
+        "transition_description": "Sustained trend continuation inside LAGGING quadrant"
+      },
+      "historical_trail": [
+        {
+          "week": "T-4",
+          "date": "2026-10-27",
+          "rs_ratio": 98.82,
+          "rs_momentum": 100.54
+        },
+        {
+          "week": "T-3",
+          "date": "2026-11-03",
+          "rs_ratio": 99.35,
+          "rs_momentum": 100.45
+        },
+        {
+          "week": "T-2",
+          "date": "2026-11-11",
+          "rs_ratio": 100.91,
+          "rs_momentum": 100.91
+        },
+        {
+          "week": "T-1",
+          "date": "2026-11-18",
+          "rs_ratio": 97.28,
+          "rs_momentum": 97.24
+        },
+        {
+          "week": "T-0",
+          "date": "2026-11-26",
+          "rs_ratio": 98.39,
+          "rs_momentum": 98.66
+        }
+      ],
+      "signal_evaluation": {
+        "symbol": "NIFTY CONSUMER DURABLES",
+        "raw_quadrant": "LAGGING",
         "consecutive_sessions": 2,
         "persistence_threshold": 2,
         "persistence_met": true,
         "heading": {
-          "angle": 66.0,
+          "angle": 52.0,
           "is_positive": true,
           "direction_label": "North-East (Accelerating Alpha & Momentum)",
           "confirmation_enabled": false,
@@ -1211,117 +1571,117 @@
         "quality_badge": "CONFIRMED (2d Streak + Positive Vector)"
       },
       "key_drivers": [
-        "US enterprise software spending recovery",
-        "Generative AI deal implementation pipeline",
-        "Attrition moderation & margin tailwinds"
+        "Festive season consumer demand surge",
+        "Cooling appliance summer pre-booking",
+        "Home renovation discretionary spending"
       ],
-      "institutional_flow": "Aggressive Rotational Inflow",
+      "institutional_flow": "Consumer Recovery Accumulation",
       "top_performers": [
-        "INTELLECT",
-        "CYIENT",
-        "TCS"
+        "BLUESTARCO",
+        "AMBER",
+        "VMM"
       ],
       "weak_performers": [
-        "KPITTECH",
-        "OFSS"
+        "TBOTEK",
+        "FIRSTCRY"
       ]
     },
     {
-      "id": "CONSUMER_DURABLES",
-      "symbol": "NIFTY CONSUMER DURABLES",
-      "name": "Nifty Consumer Durables Index",
-      "category": "Consumer Discretionary",
-      "quadrant": "LAGGING",
-      "current_rs_ratio": 99.82,
-      "current_rs_momentum": 99.74,
-      "change_rs_ratio_1w": -0.25,
-      "change_rs_momentum_1w": 0.47,
-      "rotation_heading": 118,
-      "rotation_velocity": "Moderate",
+      "id": "METAL",
+      "symbol": "NIFTY METAL",
+      "name": "Nifty Metal Index",
+      "category": "Commodities / Cyclical",
+      "quadrant": "IMPROVING",
+      "current_rs_ratio": 98.54,
+      "current_rs_momentum": 100.9,
+      "change_rs_ratio_1w": 0.42,
+      "change_rs_momentum_1w": 1.48,
+      "rotation_heading": 74,
+      "rotation_velocity": "Very High",
       "weeks_in_quadrant": 1,
       "consecutive_sessions_in_quadrant": 1,
-      "market_cap_weight_pct": 2.15,
-      "pe_ratio": 59.18,
-      "proximity_52w_high_pct": 99.9,
-      "advance_decline_ratio": "24:14",
+      "market_cap_weight_pct": 4.89,
+      "pe_ratio": 13.86,
+      "proximity_52w_high_pct": 91.6,
+      "advance_decline_ratio": "15:6",
       "breadth": {
-        "pct_above_20dma": 65.8,
-        "pct_above_50dma": 63.2,
-        "pct_above_200dma": 57.9,
-        "participation_score": 64.5
+        "pct_above_20dma": 9.5,
+        "pct_above_50dma": 14.3,
+        "pct_above_200dma": 10.5,
+        "participation_score": 40.5
       },
       "performance": {
-        "1D": -0.13,
-        "1W": 0.44,
-        "1M": 13.98,
-        "3M": -4.72,
-        "6M": 8.39,
-        "1Y": 0.61
+        "1D": 1.17,
+        "1W": -4.16,
+        "1M": -0.15,
+        "3M": -12.46,
+        "6M": -13.19,
+        "1Y": 12.8
       },
       "alpha": {
-        "1D": -1.3,
-        "1W": -0.41,
-        "1M": 1.86,
-        "3M": -6.82,
-        "6M": 3.61,
-        "1Y": -0.23
+        "1D": 0.92,
+        "1W": -6.09,
+        "1M": -11.62,
+        "3M": -14.9,
+        "6M": -18.38,
+        "1Y": 12.05
       },
-      "composite_score": 52.6,
+      "composite_score": 39.9,
       "scores": {
-        "composite_score": 52.6,
-        "rs_component_score": 48.2,
-        "momentum_component_score": 47.4,
-        "breadth_component_score": 64.5,
-        "performance_consistency_score": 51.8
+        "composite_score": 39.9,
+        "rs_component_score": 35.4,
+        "momentum_component_score": 59.0,
+        "breadth_component_score": 40.5,
+        "performance_consistency_score": 17.3
       },
       "transition": {
         "has_transitioned": true,
-        "previous_quadrant": "WEAKENING",
-        "transition_signal": "WEAKENING_TO_LAGGING",
-        "transition_description": "Active quadrant rotation from WEAKENING to LAGGING"
+        "previous_quadrant": "LAGGING",
+        "transition_signal": "LAGGING_TO_IMPROVING",
+        "transition_description": "Active quadrant rotation from LAGGING to IMPROVING"
       },
       "historical_trail": [
         {
           "week": "T-4",
-          "date": "2026-10-26",
-          "rs_ratio": 98.09,
-          "rs_momentum": 99.79
+          "date": "2026-10-27",
+          "rs_ratio": 99.28,
+          "rs_momentum": 100.97
         },
         {
           "week": "T-3",
-          "date": "2026-11-02",
-          "rs_ratio": 99.7,
-          "rs_momentum": 101.04
+          "date": "2026-11-03",
+          "rs_ratio": 98.7,
+          "rs_momentum": 99.69
         },
         {
           "week": "T-2",
-          "date": "2026-11-09",
-          "rs_ratio": 101.24,
-          "rs_momentum": 101.5
+          "date": "2026-11-11",
+          "rs_ratio": 98.85,
+          "rs_momentum": 99.66
         },
         {
           "week": "T-1",
-          "date": "2026-11-17",
-          "rs_ratio": 100.07,
-          "rs_momentum": 99.27
+          "date": "2026-11-18",
+          "rs_ratio": 98.12,
+          "rs_momentum": 99.42
         },
         {
           "week": "T-0",
-          "date": "2026-11-25",
-          "rs_ratio": 99.82,
-          "rs_momentum": 99.74
+          "date": "2026-11-26",
+          "rs_ratio": 98.54,
+          "rs_momentum": 100.9
         }
       ],
       "signal_evaluation": {
-        "symbol": "NIFTY CONSUMER DURABLES",
-        "raw_quadrant": "LAGGING",
+        "symbol": "NIFTY METAL",
+        "raw_quadrant": "IMPROVING",
         "consecutive_sessions": 1,
         "persistence_threshold": 2,
         "persistence_met": false,
         "heading": {
-          "angle": 118.0,
-          "is_positive": false,
-          "direction_label": "Rotational (118.0\u00b0)",
+          "angle": 74.0,
+          "is_positive": true,
+          "direction_label": "North-East (Accelerating Alpha & Momentum)",
           "confirmation_enabled": false,
           "confirmed": true
         },
@@ -1331,19 +1691,19 @@
         "quality_badge": "EARLY SIGNAL (1d - Pending Streak Confirmation)"
       },
       "key_drivers": [
-        "Festive season consumer demand surge",
-        "Cooling appliance summer pre-booking",
-        "Home renovation discretionary spending"
+        "Domestic infrastructure consumption",
+        "Global raw materials supply tightness",
+        "Export realization stability"
       ],
-      "institutional_flow": "Consumer Recovery Accumulation",
+      "institutional_flow": "Cyclical High-Beta Inflow",
       "top_performers": [
-        "BLUESTARCO",
-        "AMBER",
-        "EIHOTEL"
+        "SARDAEN",
+        "HINDALCO",
+        "JINDALSTEL"
       ],
       "weak_performers": [
-        "KALYANKJIL",
-        "FIRSTCRY"
+        "LLOYDSME",
+        "APLAPOLLO"
       ]
     },
     {
@@ -1352,407 +1712,47 @@
       "name": "Nifty Infrastructure Index",
       "category": "Capital Goods & Construction",
       "quadrant": "LAGGING",
-      "current_rs_ratio": 98.36,
-      "current_rs_momentum": 97.58,
-      "change_rs_ratio_1w": -1.62,
-      "change_rs_momentum_1w": -2.39,
-      "rotation_heading": 236,
-      "rotation_velocity": "Very High",
-      "weeks_in_quadrant": 1,
-      "consecutive_sessions_in_quadrant": 2,
-      "market_cap_weight_pct": 10.43,
-      "pe_ratio": 22.17,
-      "proximity_52w_high_pct": 99.1,
-      "advance_decline_ratio": "63:62",
-      "breadth": {
-        "pct_above_20dma": 46.4,
-        "pct_above_50dma": 44.0,
-        "pct_above_200dma": 41.9,
-        "participation_score": 48.4
-      },
-      "performance": {
-        "1D": 0.71,
-        "1W": 0.35,
-        "1M": 12.21,
-        "3M": 2.51,
-        "6M": 1.46,
-        "1Y": -0.23
-      },
-      "alpha": {
-        "1D": -0.46,
-        "1W": -0.5,
-        "1M": 0.09,
-        "3M": 0.41,
-        "6M": -3.32,
-        "1Y": -1.07
-      },
-      "composite_score": 37.6,
-      "scores": {
-        "composite_score": 37.6,
-        "rs_component_score": 33.6,
-        "momentum_component_score": 25.8,
-        "breadth_component_score": 48.4,
-        "performance_consistency_score": 48.9
-      },
-      "transition": {
-        "has_transitioned": false,
-        "previous_quadrant": "LAGGING",
-        "transition_signal": "LAGGING_CONTINUATION",
-        "transition_description": "Sustained trend continuation inside LAGGING quadrant"
-      },
-      "historical_trail": [
-        {
-          "week": "T-4",
-          "date": "2026-10-26",
-          "rs_ratio": 101.54,
-          "rs_momentum": 100.83
-        },
-        {
-          "week": "T-3",
-          "date": "2026-11-02",
-          "rs_ratio": 102.55,
-          "rs_momentum": 103.11
-        },
-        {
-          "week": "T-2",
-          "date": "2026-11-09",
-          "rs_ratio": 99.51,
-          "rs_momentum": 98.59
-        },
-        {
-          "week": "T-1",
-          "date": "2026-11-17",
-          "rs_ratio": 99.98,
-          "rs_momentum": 99.97
-        },
-        {
-          "week": "T-0",
-          "date": "2026-11-25",
-          "rs_ratio": 98.36,
-          "rs_momentum": 97.58
-        }
-      ],
-      "signal_evaluation": {
-        "symbol": "NIFTY INFRA",
-        "raw_quadrant": "LAGGING",
-        "consecutive_sessions": 2,
-        "persistence_threshold": 2,
-        "persistence_met": true,
-        "heading": {
-          "angle": 236.0,
-          "is_positive": false,
-          "direction_label": "Rotational (236.0\u00b0)",
-          "confirmation_enabled": false,
-          "confirmed": true
-        },
-        "is_confirmed": true,
-        "confirmation_type": "PERSISTENCE_CONFIRMED",
-        "conviction_rating": "MODERATE CONVICTION - CONFIRMED",
-        "quality_badge": "CONFIRMED (2d Streak)"
-      },
-      "key_drivers": [
-        "Central & State public capex execution",
-        "Industrial order book backlogs",
-        "Private sector capex revival"
-      ],
-      "institutional_flow": "Strategic Long-Term Flow",
-      "top_performers": [
-        "JWL",
-        "INOXINDIA",
-        "JKCEMENT"
-      ],
-      "weak_performers": [
-        "TTML",
-        "HFCL"
-      ]
-    },
-    {
-      "id": "ENERGY",
-      "symbol": "NIFTY ENERGY",
-      "name": "Nifty Energy Index",
-      "category": "Energy / Utilities",
-      "quadrant": "LAGGING",
-      "current_rs_ratio": 97.48,
-      "current_rs_momentum": 98.91,
-      "change_rs_ratio_1w": -1.34,
-      "change_rs_momentum_1w": -0.93,
-      "rotation_heading": 215,
-      "rotation_velocity": "Very High",
-      "weeks_in_quadrant": 1,
-      "consecutive_sessions_in_quadrant": 4,
-      "market_cap_weight_pct": 7.26,
-      "pe_ratio": 13.13,
-      "proximity_52w_high_pct": 97.7,
-      "advance_decline_ratio": "20:29",
-      "breadth": {
-        "pct_above_20dma": 36.7,
-        "pct_above_50dma": 34.7,
-        "pct_above_200dma": 32.6,
-        "participation_score": 38.8
-      },
-      "performance": {
-        "1D": 0.04,
-        "1W": -1.37,
-        "1M": 6.23,
-        "3M": -4.14,
-        "6M": -9.63,
-        "1Y": 1.23
-      },
-      "alpha": {
-        "1D": -1.13,
-        "1W": -2.22,
-        "1M": -5.89,
-        "3M": -6.24,
-        "6M": -14.41,
-        "1Y": 0.39
-      },
-      "composite_score": 33.5,
-      "scores": {
-        "composite_score": 33.5,
-        "rs_component_score": 24.8,
-        "momentum_component_score": 39.1,
-        "breadth_component_score": 38.8,
-        "performance_consistency_score": 35.6
-      },
-      "transition": {
-        "has_transitioned": false,
-        "previous_quadrant": "LAGGING",
-        "transition_signal": "LAGGING_CONTINUATION",
-        "transition_description": "Sustained trend continuation inside LAGGING quadrant"
-      },
-      "historical_trail": [
-        {
-          "week": "T-4",
-          "date": "2026-10-26",
-          "rs_ratio": 99.29,
-          "rs_momentum": 100.52
-        },
-        {
-          "week": "T-3",
-          "date": "2026-11-02",
-          "rs_ratio": 101.5,
-          "rs_momentum": 102.72
-        },
-        {
-          "week": "T-2",
-          "date": "2026-11-09",
-          "rs_ratio": 98.56,
-          "rs_momentum": 99.75
-        },
-        {
-          "week": "T-1",
-          "date": "2026-11-17",
-          "rs_ratio": 98.82,
-          "rs_momentum": 99.84
-        },
-        {
-          "week": "T-0",
-          "date": "2026-11-25",
-          "rs_ratio": 97.48,
-          "rs_momentum": 98.91
-        }
-      ],
-      "signal_evaluation": {
-        "symbol": "NIFTY ENERGY",
-        "raw_quadrant": "LAGGING",
-        "consecutive_sessions": 4,
-        "persistence_threshold": 2,
-        "persistence_met": true,
-        "heading": {
-          "angle": 215.0,
-          "is_positive": false,
-          "direction_label": "Rotational (215.0\u00b0)",
-          "confirmation_enabled": false,
-          "confirmed": true
-        },
-        "is_confirmed": true,
-        "confirmation_type": "PERSISTENCE_CONFIRMED",
-        "conviction_rating": "MODERATE CONVICTION - CONFIRMED",
-        "quality_badge": "CONFIRMED (4d Streak)"
-      },
-      "key_drivers": [
-        "Power demand grid peaking requirements",
-        "Renewable energy capacity additions",
-        "Refining margin stabilization"
-      ],
-      "institutional_flow": "Value & Yield Flow",
-      "top_performers": [
-        "ACMESOLAR",
-        "POWERGRID",
-        "ABB"
-      ],
-      "weak_performers": [
-        "MRPL",
-        "INOXWIND"
-      ]
-    },
-    {
-      "id": "COMMODITIES",
-      "symbol": "NIFTY COMMODITIES",
-      "name": "Nifty Commodities Index",
-      "category": "Commodities / Basic Materials",
-      "quadrant": "LAGGING",
-      "current_rs_ratio": 97.53,
-      "current_rs_momentum": 97.43,
-      "change_rs_ratio_1w": -1.39,
-      "change_rs_momentum_1w": -2.15,
-      "rotation_heading": 237,
-      "rotation_velocity": "Very High",
-      "weeks_in_quadrant": 2,
-      "consecutive_sessions_in_quadrant": 12,
-      "market_cap_weight_pct": 13.61,
-      "pe_ratio": 13.59,
-      "proximity_52w_high_pct": 96.2,
-      "advance_decline_ratio": "21:32",
-      "breadth": {
-        "pct_above_20dma": 39.6,
-        "pct_above_50dma": 49.1,
-        "pct_above_200dma": 38.5,
-        "participation_score": 39.6
-      },
-      "performance": {
-        "1D": -0.23,
-        "1W": -2.48,
-        "1M": 6.58,
-        "3M": -4.42,
-        "6M": -9.42,
-        "1Y": 0.93
-      },
-      "alpha": {
-        "1D": -1.4,
-        "1W": -3.33,
-        "1M": -5.54,
-        "3M": -6.52,
-        "6M": -14.2,
-        "1Y": 0.09
-      },
-      "composite_score": 29.8,
-      "scores": {
-        "composite_score": 29.8,
-        "rs_component_score": 25.3,
-        "momentum_component_score": 24.3,
-        "breadth_component_score": 39.6,
-        "performance_consistency_score": 33.4
-      },
-      "transition": {
-        "has_transitioned": false,
-        "previous_quadrant": "LAGGING",
-        "transition_signal": "LAGGING_CONTINUATION",
-        "transition_description": "Sustained trend continuation inside LAGGING quadrant"
-      },
-      "historical_trail": [
-        {
-          "week": "T-4",
-          "date": "2026-10-26",
-          "rs_ratio": 101.35,
-          "rs_momentum": 102.22
-        },
-        {
-          "week": "T-3",
-          "date": "2026-11-02",
-          "rs_ratio": 102.92,
-          "rs_momentum": 102.7
-        },
-        {
-          "week": "T-2",
-          "date": "2026-11-09",
-          "rs_ratio": 99.34,
-          "rs_momentum": 99.19
-        },
-        {
-          "week": "T-1",
-          "date": "2026-11-17",
-          "rs_ratio": 98.92,
-          "rs_momentum": 99.58
-        },
-        {
-          "week": "T-0",
-          "date": "2026-11-25",
-          "rs_ratio": 97.53,
-          "rs_momentum": 97.43
-        }
-      ],
-      "signal_evaluation": {
-        "symbol": "NIFTY COMMODITIES",
-        "raw_quadrant": "LAGGING",
-        "consecutive_sessions": 12,
-        "persistence_threshold": 2,
-        "persistence_met": true,
-        "heading": {
-          "angle": 237.0,
-          "is_positive": false,
-          "direction_label": "Rotational (237.0\u00b0)",
-          "confirmation_enabled": false,
-          "confirmed": true
-        },
-        "is_confirmed": true,
-        "confirmation_type": "PERSISTENCE_CONFIRMED",
-        "conviction_rating": "MODERATE CONVICTION - CONFIRMED",
-        "quality_badge": "CONFIRMED (12d Streak)"
-      },
-      "key_drivers": [
-        "Basic chemical pricing stability",
-        "Cement demand acceleration",
-        "Global supply chain reallocation"
-      ],
-      "institutional_flow": "Moderate Cyclical Inflow",
-      "top_performers": [
-        "PRIVISCL",
-        "PIDILITIND",
-        "GRASIM"
-      ],
-      "weak_performers": [
-        "TATASTEEL",
-        "APLAPOLLO"
-      ]
-    },
-    {
-      "id": "MEDIA",
-      "symbol": "NIFTY MEDIA",
-      "name": "Nifty Media Index",
-      "category": "Media & Entertainment",
-      "quadrant": "LAGGING",
-      "current_rs_ratio": 97.35,
-      "current_rs_momentum": 97.6,
-      "change_rs_ratio_1w": -3.52,
-      "change_rs_momentum_1w": -3.05,
-      "rotation_heading": 221,
+      "current_rs_ratio": 98.33,
+      "current_rs_momentum": 98.27,
+      "change_rs_ratio_1w": -2.18,
+      "change_rs_momentum_1w": -2.51,
+      "rotation_heading": 229,
       "rotation_velocity": "Very High",
       "weeks_in_quadrant": 1,
       "consecutive_sessions_in_quadrant": 3,
-      "market_cap_weight_pct": 0.52,
-      "pe_ratio": 38.76,
-      "proximity_52w_high_pct": 93.6,
-      "advance_decline_ratio": "2:2",
+      "market_cap_weight_pct": 9.16,
+      "pe_ratio": 22.18,
+      "proximity_52w_high_pct": 99.1,
+      "advance_decline_ratio": "63:61",
       "breadth": {
-        "pct_above_20dma": 25.0,
-        "pct_above_50dma": 50.0,
-        "pct_above_200dma": 50.0,
-        "participation_score": 37.5
+        "pct_above_20dma": 50.4,
+        "pct_above_50dma": 42.4,
+        "pct_above_200dma": 39.5,
+        "participation_score": 50.6
       },
       "performance": {
-        "1D": -4.44,
-        "1W": -5.81,
-        "1M": 6.91,
-        "3M": 3.65,
-        "6M": 21.26,
-        "1Y": 12.77
+        "1D": 0.06,
+        "1W": 0.85,
+        "1M": 10.88,
+        "3M": 2.8,
+        "6M": 1.97,
+        "1Y": -0.35
       },
       "alpha": {
-        "1D": -5.61,
-        "1W": -6.66,
-        "1M": -5.21,
-        "3M": 1.55,
-        "6M": 16.48,
-        "1Y": 11.93
+        "1D": -0.19,
+        "1W": -1.08,
+        "1M": -0.59,
+        "3M": 0.36,
+        "6M": -3.22,
+        "1Y": -1.1
       },
-      "composite_score": 27.9,
+      "composite_score": 39.4,
       "scores": {
-        "composite_score": 27.9,
-        "rs_component_score": 23.5,
-        "momentum_component_score": 26.0,
-        "breadth_component_score": 37.5,
-        "performance_consistency_score": 25.5
+        "composite_score": 39.4,
+        "rs_component_score": 33.3,
+        "momentum_component_score": 32.7,
+        "breadth_component_score": 50.6,
+        "performance_consistency_score": 46.4
       },
       "transition": {
         "has_transitioned": true,
@@ -1763,45 +1763,45 @@
       "historical_trail": [
         {
           "week": "T-4",
-          "date": "2026-10-26",
-          "rs_ratio": 98.76,
-          "rs_momentum": 98.29
+          "date": "2026-10-27",
+          "rs_ratio": 101.3,
+          "rs_momentum": 100.63
         },
         {
           "week": "T-3",
-          "date": "2026-11-02",
-          "rs_ratio": 98.88,
-          "rs_momentum": 98.22
+          "date": "2026-11-03",
+          "rs_ratio": 101.84,
+          "rs_momentum": 101.45
         },
         {
           "week": "T-2",
-          "date": "2026-11-09",
-          "rs_ratio": 99.46,
-          "rs_momentum": 99.69
+          "date": "2026-11-11",
+          "rs_ratio": 99.62,
+          "rs_momentum": 99.04
         },
         {
           "week": "T-1",
-          "date": "2026-11-17",
-          "rs_ratio": 100.87,
-          "rs_momentum": 100.65
+          "date": "2026-11-18",
+          "rs_ratio": 100.51,
+          "rs_momentum": 100.78
         },
         {
           "week": "T-0",
-          "date": "2026-11-25",
-          "rs_ratio": 97.35,
-          "rs_momentum": 97.6
+          "date": "2026-11-26",
+          "rs_ratio": 98.33,
+          "rs_momentum": 98.27
         }
       ],
       "signal_evaluation": {
-        "symbol": "NIFTY MEDIA",
+        "symbol": "NIFTY INFRA",
         "raw_quadrant": "LAGGING",
         "consecutive_sessions": 3,
         "persistence_threshold": 2,
         "persistence_met": true,
         "heading": {
-          "angle": 221.0,
+          "angle": 229.0,
           "is_positive": false,
-          "direction_label": "Rotational (221.0\u00b0)",
+          "direction_label": "Rotational (229.0\u00b0)",
           "confirmation_enabled": false,
           "confirmed": true
         },
@@ -1811,162 +1811,164 @@
         "quality_badge": "CONFIRMED (3d Streak)"
       },
       "key_drivers": [
-        "Digital streaming monetization improvement",
-        "Ad-spend recovery in theatrical releases",
-        "Consolidation synergies"
+        "Central & State public capex execution",
+        "Industrial order book backlogs",
+        "Private sector capex revival"
       ],
-      "institutional_flow": "Selective Retail & DII Allocation",
+      "institutional_flow": "Strategic Long-Term Flow",
       "top_performers": [
-        "PVRINOX",
-        "ZEEL",
-        "SUNTV"
+        "JWL",
+        "ACE",
+        "JSWINFRA"
       ],
       "weak_performers": [
-        "SUNTV",
-        "PFOCUS"
+        "TTML",
+        "HFCL"
       ]
     },
     {
-      "id": "METAL",
-      "symbol": "NIFTY METAL",
-      "name": "Nifty Metal Index",
-      "category": "Commodities / Cyclical",
+      "id": "MEDIA",
+      "symbol": "NIFTY MEDIA",
+      "name": "Nifty Media Index",
+      "category": "Media & Entertainment",
       "quadrant": "LAGGING",
-      "current_rs_ratio": 97.8,
-      "current_rs_momentum": 98.26,
-      "change_rs_ratio_1w": -0.76,
-      "change_rs_momentum_1w": -1.55,
-      "rotation_heading": 244,
+      "current_rs_ratio": 98.13,
+      "current_rs_momentum": 98.83,
+      "change_rs_ratio_1w": -3.25,
+      "change_rs_momentum_1w": -2.23,
+      "rotation_heading": 214,
       "rotation_velocity": "Very High",
-      "weeks_in_quadrant": 2,
-      "consecutive_sessions_in_quadrant": 12,
-      "market_cap_weight_pct": 9.47,
-      "pe_ratio": 13.7,
-      "proximity_52w_high_pct": 90.6,
-      "advance_decline_ratio": "3:18",
+      "weeks_in_quadrant": 1,
+      "consecutive_sessions_in_quadrant": 4,
+      "market_cap_weight_pct": 0.37,
+      "pe_ratio": 38.62,
+      "proximity_52w_high_pct": 93.3,
+      "advance_decline_ratio": "1:3",
       "breadth": {
-        "pct_above_20dma": 19.0,
-        "pct_above_50dma": 14.3,
-        "pct_above_200dma": 10.5,
-        "participation_score": 16.6
+        "pct_above_20dma": 50.0,
+        "pct_above_50dma": 50.0,
+        "pct_above_200dma": 50.0,
+        "participation_score": 37.5
       },
       "performance": {
-        "1D": -2.04,
-        "1W": -7.6,
-        "1M": 0.87,
-        "3M": -12.1,
-        "6M": -13.24,
-        "1Y": 11.51
+        "1D": -0.34,
+        "1W": -6.57,
+        "1M": 6.91,
+        "3M": 3.9,
+        "6M": 21.13,
+        "1Y": 12.68
       },
       "alpha": {
-        "1D": -3.21,
-        "1W": -8.45,
-        "1M": -11.25,
-        "3M": -14.2,
-        "6M": -18.02,
-        "1Y": 10.67
+        "1D": -0.59,
+        "1W": -8.5,
+        "1M": -4.56,
+        "3M": 1.46,
+        "6M": 15.94,
+        "1Y": 11.93
       },
-      "composite_score": 23.9,
+      "composite_score": 33.2,
       "scores": {
-        "composite_score": 23.9,
-        "rs_component_score": 28.0,
-        "momentum_component_score": 32.6,
-        "breadth_component_score": 16.6,
-        "performance_consistency_score": 12.0
+        "composite_score": 33.2,
+        "rs_component_score": 31.3,
+        "momentum_component_score": 38.3,
+        "breadth_component_score": 37.5,
+        "performance_consistency_score": 21.9
       },
       "transition": {
-        "has_transitioned": false,
-        "previous_quadrant": "LAGGING",
-        "transition_signal": "LAGGING_CONTINUATION",
-        "transition_description": "Sustained trend continuation inside LAGGING quadrant"
+        "has_transitioned": true,
+        "previous_quadrant": "LEADING",
+        "transition_signal": "LEADING_TO_LAGGING",
+        "transition_description": "Active quadrant rotation from LEADING to LAGGING"
       },
       "historical_trail": [
         {
           "week": "T-4",
-          "date": "2026-10-26",
-          "rs_ratio": 99.08,
-          "rs_momentum": 100.91
+          "date": "2026-10-27",
+          "rs_ratio": 101.64,
+          "rs_momentum": 101.25
         },
         {
           "week": "T-3",
-          "date": "2026-11-02",
-          "rs_ratio": 101.18,
-          "rs_momentum": 102.22
+          "date": "2026-11-03",
+          "rs_ratio": 98.7,
+          "rs_momentum": 98.52
         },
         {
           "week": "T-2",
-          "date": "2026-11-09",
-          "rs_ratio": 98.41,
-          "rs_momentum": 99.1
+          "date": "2026-11-11",
+          "rs_ratio": 99.47,
+          "rs_momentum": 99.74
         },
         {
           "week": "T-1",
-          "date": "2026-11-17",
-          "rs_ratio": 98.56,
-          "rs_momentum": 99.81
+          "date": "2026-11-18",
+          "rs_ratio": 101.38,
+          "rs_momentum": 101.06
         },
         {
           "week": "T-0",
-          "date": "2026-11-25",
-          "rs_ratio": 97.8,
-          "rs_momentum": 98.26
+          "date": "2026-11-26",
+          "rs_ratio": 98.13,
+          "rs_momentum": 98.83
         }
       ],
       "signal_evaluation": {
-        "symbol": "NIFTY METAL",
+        "symbol": "NIFTY MEDIA",
         "raw_quadrant": "LAGGING",
-        "consecutive_sessions": 12,
+        "consecutive_sessions": 4,
         "persistence_threshold": 2,
         "persistence_met": true,
         "heading": {
-          "angle": 244.0,
+          "angle": 214.0,
           "is_positive": false,
-          "direction_label": "Rotational (244.0\u00b0)",
+          "direction_label": "Rotational (214.0\u00b0)",
           "confirmation_enabled": false,
           "confirmed": true
         },
         "is_confirmed": true,
         "confirmation_type": "PERSISTENCE_CONFIRMED",
         "conviction_rating": "MODERATE CONVICTION - CONFIRMED",
-        "quality_badge": "CONFIRMED (12d Streak)"
+        "quality_badge": "CONFIRMED (4d Streak)"
       },
       "key_drivers": [
-        "Domestic infrastructure consumption",
-        "Global raw materials supply tightness",
-        "Export realization stability"
+        "Digital streaming monetization improvement",
+        "Ad-spend recovery in theatrical releases",
+        "Consolidation synergies"
       ],
-      "institutional_flow": "Cyclical High-Beta Inflow",
+      "institutional_flow": "Selective Retail & DII Allocation",
       "top_performers": [
-        "SARDAEN",
-        "GRAVITA",
-        "JAINREC"
+        "SUNTV",
+        "PVRINOX",
+        "ZEEL"
       ],
       "weak_performers": [
-        "TATASTEEL",
-        "APLAPOLLO"
+        "ZEEL",
+        "PFOCUS"
       ]
     }
   ],
   "leadership": {
     "strongest": [
+      "NIFTY REALTY",
+      "NIFTY IT",
       "NIFTY HEALTHCARE",
-      "NIFTY FMCG",
-      "NIFTY PHARMA",
-      "NIFTY FIN SERVICE"
+      "NIFTY PHARMA"
     ],
     "emerging": [
-      "NIFTY IT"
+      "NIFTY METAL",
+      "NIFTY ENERGY"
     ],
     "weakening": [
-      "NIFTY PSU BANK",
-      "NIFTY REALTY",
-      "NIFTY BANK"
+      "NIFTY BANK",
+      "NIFTY PVT BANK",
+      "NIFTY AUTO",
+      "NIFTY FIN SERVICE"
     ],
     "lagging": [
       "NIFTY MEDIA",
-      "NIFTY ENERGY",
       "NIFTY COMMODITIES",
-      "NIFTY METAL"
+      "NIFTY INFRA",
+      "NIFTY CONSUMER DURABLES"
     ]
   }
 }
